@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;      
+}
+
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 1000px; 
+    width: 100%; 
+    padding: 20px;
+}
+
+.Profile-cards {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+    position: relative; 
+    box-sizing: border-box; 
+    transition: transform 0.5s ease; 
+}
+
+
+.Profile-cards:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+    border-color: #007bff; 
+}
+
+
+.Profile-cards img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 3px solid #007bff;   
+}
+
+
+.Profile-cards h3 {
+    color: #8a3434;
+    margin-bottom: 5px;
+    font-size: 1.6em;
+}
+
+.Profile-p {
+    color: #000000;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.Profile-cards ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Profile-cards ul li a {
+    color: #2c7dd3;
+    font-size: 1.8em; 
+}
+
+
+a[href^="mailto"] {
+    color: #dc3545; 
+    font-weight: bold;
+}
+
+a[href^="mailto"]:hover {
+    color: #c82333;
+}
+
+.Profile-cards::before {
+    content: "Team Member";
+    position: absolute;
+    top: 15px;
+    right: -30px; 
+    background-color: #28a745; 
+    color: white;
+    padding: 5px 30px;
+    font-size: 0.8em;
+    font-weight: bold;
+    transform: rotate(45deg); 
+    transform-origin: 0% 0%; 
+}
+
