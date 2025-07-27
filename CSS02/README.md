@@ -17,7 +17,7 @@ Welcome to this Web login Pages project! 🎉 This collection features beautiful
 ```
 
 > **Note on Image Assets:**  
-> This project relies on several image files like [`bg.jpg`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/bg.jpg), [`girl.png`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/girl.png), [`leaf_01.png`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/leaf_01.png), etc. that should be located in the same directory as your HTML and CSS files for the design and animations to display correctly. 📁
+> This project relies on several image files like [`bg.jpg`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/bg.jpg), [`girl.png`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/girl.png), [`leaf_01.png`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/leaf_01.png) etc. that should be located in the same directory as  HTML and CSS files for the design and animations to display correctly. 📁
 
 ---
 
@@ -35,7 +35,7 @@ This project blends modern UI design with captivating CSS animations:
 
 ## 🎨 Key CSS Snippets ✏️
 
-While the full styling resides in `style.css`, here are some core parts that drive the visual effects:
+While the full styling resides in [`style.css`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/style.css), here are some core parts that drive the visual effects:
 
 ### 1. 🌟 Glassmorphism Forms
 
@@ -119,8 +119,8 @@ Success messages (`.toast1`, `.toast2`, `.toast3`) appear when the hidden checkb
 
 Follow these steps to set up and view the project locally:
 
-1. **Save Files:** Place all HTML files (`index.html`, `Register.html`, `forget.html`) and `style.css` into a single folder.
-2. **Add Image Assets:** Ensure all images (`bg.jpg`, `girl.png`, `trees.png`, leaf images, etc.) are in the same folder.
+1. **Save Files:** Place all HTML files [`index.html`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/index.html), [`Register.html`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/Register.html, [`forget.html`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/forget.html) and [`style.css`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/style.css) into a single folder.
+2. **Add Image Assets:** Ensure all images [`bg.jpg`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/bg.jpg), [`girl.png`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/girl.png), [`trees.png`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/trees.png), leaf images, etc.) are in the same folder.
 3. **Open in Browser:** Double-click `index.html` or open it via your preferred browser.
 4. **Navigate & Explore:** Visit the Sign Up and Forget Password pages through the links to experience the full animated flow.
 
