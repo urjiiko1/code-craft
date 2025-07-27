@@ -181,4 +181,3 @@ This project was completed on: July 28, 2025 🗓️
 
 ---
 
- **Enjoy the serene autumn vibes with this beautifully animated web experience! 🍁✨**
