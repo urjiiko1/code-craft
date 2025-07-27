@@ -138,15 +138,16 @@ Feel free to modify and improve this project! Your ideas for enhancing the desig
 
 Here are some ideas for potential future improvements to this project:
 
-**✅Responsive Optimization:** Further refine responsiveness for an even smoother experience across a wider range of devices. 📱💻
+📱 **Responsive Optimization:** Further refine responsiveness for an even smoother experience across a wider range of devices.
 
-**✅More Animations:** Introduce additional subtle animations, such as parallax scrolling effects for background elements or dynamic weather conditions. 🌬️☀️
+✨ **More Animations:** Introduce additional subtle animations, such as parallax scrolling effects for background elements or dynamic weather conditions.
 
-**✅User Authentication (Backend):** Implement server-side logic and a database for actual user registration, login, and secure data handling. 🔒
+🔒 **User Authentication (Backend):** Implement server-side logic and a database for actual user registration, login, and secure data handling.
 
-**✅Theming Options:** Add options for users to switch between different seasonal themes (e.g., winter wonderland ❄️, spring bloom 🌸) or custom color schemes.
+🎨 **Theming Options:** Add options for users to switch between different seasonal themes (e.g., winter wonderland ❄️, spring bloom 🌸) or custom color schemes.
 
-**✅Accessibility Improvements:** Enhance accessibility features (e.g., keyboard navigation, ARIA attributes) for a more inclusive user experience. 🧑‍🦯
+♿ **Accessibility Improvements:** Enhance accessibility features (e.g., keyboard navigation, ARIA attributes) for a more inclusive user experience.
+
 
 ----
 
@@ -168,7 +169,9 @@ Connect with me and see more of my work here:
 
 [`Telegram`](https://t.me/urjiiko1) 🌐
 
-Personal Website/Portfolio Soon 🚀
+**Website/Portfolio** Soon 🚀
+
+
 
 ----
 ## 📅 Date of Completion
@@ -178,4 +181,4 @@ This project was completed on: July 28, 2025 🗓️
 
 ---
 
-## Enjoy the serene autumn vibes with this beautifully animated web experience! 🍁✨
+ **Enjoy the serene autumn vibes with this beautifully animated web experience! 🍁✨**
