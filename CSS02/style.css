@@ -11,9 +11,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; 
+    overflow-x: hidden; 
     body {
     background: url('bg.jpg') no-repeat center center/cover;
+    margin: 0;
 }
 
 }
@@ -135,7 +136,7 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 
     background-color: rgba(255, 255, 255, 0.208);
     backdrop-filter: blur(10px);
@@ -143,7 +144,7 @@ section {
     max-width: 400px;
     height: auto;
     max-height: 90vh;
-    padding: 40px;
+    padding: 30px 20px;
     border-radius: 15px;
     border: .5px solid rgba(255, 255, 255, 0.56);
     box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.097);
@@ -172,7 +173,7 @@ section {
 
 .inputBox input {
     width: 100%;
-    padding: 15px;
+    padding: 14px;
     border-radius: 5px;
     border: none;
     color: #90281F;
@@ -181,6 +182,7 @@ section {
     background: rgba(255, 255, 255, 0.4);
     transition: background 0.3s ease;
     margin-bottom: 10px;
+    font-size: 16px;
 }
 .inputBox input:focus {
     background: rgba(255, 255, 255, 0.6);
@@ -196,9 +198,10 @@ section {
     color: white;
     cursor: pointer;
     transition: .3s ease;
-    width: 150px;
-    padding: 13px;
+    width: 100%;
+    padding: 14px;
     border-radius: 10px;
+    font-size: 16px;
     
 }
 #btn:hover {
@@ -351,8 +354,43 @@ section {
     .trees {
 display: none;
     }
+    .leaves {
+        display: none;
+    }
 .leaves.set div {
     display: none;
 }
     
+}
+
+@media (max-width: 768px) {
+    .VS h2 { font-size: 2rem; }
+    .VS h3 { font-size: 1.5rem; }
+}
+
+@media (max-width: 480px) {
+    .VS h2, .VS h3 { font-size: 1.3rem; }
+}
+
+
+.toast1, .toast2, .toast3 {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    width: auto;
+    max-width: 90%;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    .VS {
+        padding: 20px 15px;
+    }
+    .inputBox input {
+        font-size: 0.95rem;
+    }
+    #btn {
+        font-size: 0.95rem;
+    }
 }
