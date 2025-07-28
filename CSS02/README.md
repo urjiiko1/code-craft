@@ -13,7 +13,7 @@ Welcome to this Web login Pages project! 🎉 This collection features beautiful
 ## 📂 Project Structure
 
 ```plaintext
-.
+
 ├── index.html          # Login Page (Main Entry) 📝
 ├── Register.html       # Sign Up Page ✍️
 ├── forget.html         # Forget Password Page 🔑
@@ -34,7 +34,7 @@ This project blends modern UI design with captivating CSS animations:
 - **🌬️ Dynamic Animated Background:** The pages come alive with continuous animations, including a girl on a bike moving across the screen and subtle, swaying trees.
 - **🍁 Enchanting Falling Leaves:** A mesmerizing animation of autumn leaves gently falling creates a cozy, atmospheric backdrop.
 - **💬 Pure CSS Toast Notifications:** Success messages (like "You login successfully!") appear as unobtrusive "toasts" at the bottom of the screen, implemented purely with CSS.
-- **🔗 Seamless Navigation:** Easily navigate between Login, Sign Up, and Forget Password pages through clean, integrated links.
+- **🔗 Seamless Navigation:** Easily navigate between Login, Sign Up and Forget Password pages through clean, integrated links.
 
 ---
 
@@ -131,28 +131,22 @@ Follow these steps to set up and view the project locally:
 
 ---
 
-## 🤝 Contributing
-
-Feel free to modify and improve this project! Your ideas for enhancing the design, adding functionalities or customizing animations are most welcome. 💖
-
-
--------
-
 
 ## 🔮 Future Enhancements
 
 Here are some ideas for potential future improvements to this project:
 
-📱 **Responsive Optimization:** Further refine responsiveness for an even smoother experience across a wider range of devices.
+- 📱 **Responsive Optimization:** Further refine responsiveness for an even smoother experience across a wider range of devices.
+- ✨ **More Animations:** Introduce additional subtle animations, such as parallax scrolling effects for background elements or dynamic weather conditions.
+- 🔒 **User Authentication (Backend):** Implement server-side logic and a database for actual user registration, login and secure data handling.
+- 🎨 **Theming Options:** Add options for users to switch between different seasonal themes (e.g., winter wonderland ❄️, spring bloom 🌸) or custom color schemes.
+- ♿ **Accessibility Improvements:** Enhance accessibility features (e.g., keyboard navigation, ARIA attributes) for a more inclusive user experience.
 
-✨ **More Animations:** Introduce additional subtle animations, such as parallax scrolling effects for background elements or dynamic weather conditions.
+-------
 
-🔒 **User Authentication (Backend):** Implement server-side logic and a database for actual user registration, login, and secure data handling.
+## 🤝 Contributing
 
-🎨 **Theming Options:** Add options for users to switch between different seasonal themes (e.g., winter wonderland ❄️, spring bloom 🌸) or custom color schemes.
-
-♿ **Accessibility Improvements:** Enhance accessibility features (e.g., keyboard navigation, ARIA attributes) for a more inclusive user experience.
-
+Feel free to modify and improve this project! Your ideas for enhancing the design, adding functionalities or customizing animations are most welcome. 💖
 
 ----
 
