@@ -198,7 +198,7 @@ Connect with me and see more of my work here:
 
 [`LinkedIn Profile`](https://www.linkedin.com/in/gemachis-tesfaye-137196318) 💼
 
-Website/Portfolio **Soon** 🚀
+Portfolio **Soon😊** 🚀
 
 ----
 ## 💌 Feedback or Suggestions?
@@ -216,5 +216,4 @@ I'd love to hear from you!
 
 This project was completed on: July 28, 2025 🗓️
 
----
 
