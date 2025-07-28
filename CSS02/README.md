@@ -119,18 +119,32 @@ Success messages (`.toast1`, `.toast2`, `.toast3`) appear when the hidden checkb
 ```
 
 ---
+## 🖼️ Screenshots / Preview
 
-## 🚀 Getting Started
+Here are some previews of what the pages look like in action:
 
-Follow these steps to set up and view the project locally:
+| Sign In Page | Sign Up Page | Forget Page |
+|------------|--------------|----------------|
+| ![Sign-in](https://github.com/urjiiko1/code-craft/blob/main/CSS02/preview-sign-in.png) | ![Sign-up](https://github.com/urjiiko1/code-craft/blob/main/CSS02/preview-sign-up.png) | ![Forget](https://github.com/urjiiko1/code-craft/blob/main/CSS02/preview-forget.png) |
 
-1. **Save Files:** Place all HTML files [`index.html`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/index.html), [`Register.html`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/Register.html) [`forget.html`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/forget.html) and [`style.css`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/style.css) into a single folder.
-2. **Add Image Assets:** Ensure all images [`bg.jpg`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/bg.jpg), [`girl.png`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/girl.png), [`trees.png`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/trees.png), leaf images, etc.) are in the same folder.
-3. **Open in Browser:** Double-click [`index.html`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/index.html) or open it via your preferred browser.
-4. **Navigate & Explore:** Visit the Sign Up and Forget Password pages through the links to experience the full animated flow.
+----
+
+## 🧰 Technologies Used
+
+- **HTML5** – Semantic, accessible structure  
+- **CSS3** – Animations, transitions and responsive design  
+- **Pure CSS Glassmorphism & Keyframe Animations**  
+- **GitHub Pages** – For live deployment  
+- **VS Code** – Primary code editor 
 
 ---
 
+
+## 🐛 Known Issues
+
+- Some older browsers may not fully support `backdrop-filter` used in glassmorphism.
+- Toast notifications may need enhancements for screen readers.
+----
 
 ## 🔮 Future Enhancements
 
@@ -143,6 +157,17 @@ Here are some ideas for potential future improvements to this project:
 - ♿ **Accessibility Improvements:** Enhance accessibility features (e.g., keyboard navigation, ARIA attributes) for a more inclusive user experience.
 
 -------
+
+## 🚀 Getting Started
+
+Follow these steps to set up and view the project locally:
+
+1. **Save Files:** Place all HTML files [`index.html`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/index.html), [`Register.html`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/Register.html) [`forget.html`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/forget.html) and [`style.css`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/style.css) into a single folder.
+2. **Add Image Assets:** Ensure all images [`bg.jpg`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/bg.jpg), [`girl.png`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/girl.png), [`trees.png`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/trees.png), leaf images, etc.) are in the same folder.
+3. **Open in Browser:** Double-click [`index.html`](https://github.com/urjiiko1/code-craft/blob/main/CSS02/index.html) or open it via your preferred browser.
+4. **Navigate & Explore:** Visit the Sign Up and Forget Password pages through the links to experience the full animated flow.
+
+---
 
 ## 🤝 Contributing
 
@@ -170,6 +195,10 @@ Connect with me and see more of my work here:
 
 Website/Portfolio **Soon** 🚀
 
+----
+## 💌 Feedback or Suggestions?
+
+If you have any ideas to improve this project or want to collaborate, feel free to reach out through [Telegram](https://t.me/urjiiko1) or [GitHub Issues](https://github.com/urjiiko1/code-craft/issues). I'd love to hear from you!
 
 
 ----
