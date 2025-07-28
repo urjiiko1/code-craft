@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Animated Glassmorphism Login Page</title>
+	<title>Animated Glassmorphism Signup Page</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,33 +23,41 @@
 		 <img src="girl.png" class="girl"> 
 		<img src="trees.png" class="trees">
 
-		<form id="registerForm">
-		<div class="VS">
+       <form id="registerForm">
+  <div class="VS">
 
-			<h2>Sign In</h2>
-			<div class="inputBox">
+    <h2>Sign UP</h2>
+    <div class="inputBox">
       <input type="text" name="username" placeholder="Username">
     </div>
-			<div class="inputBox">
+    <div class="inputBox">
+      <input type="email" name="email" placeholder="Email" required>
+    </div>
+    <div class="inputBox">
       <input type="password" name="password" placeholder="Password">
     </div>
-			<div class="inputBox">
-      <label for="popupTrigger" id="btn">Login</label>
+    <div class="inputBox">
+      <input type="password" name="password2" placeholder="Again Password">
+    </div>
+   <div class="inputBox">
+      <label for="popupTrigger" id="btn">Sign Up</label>
     </div>
 
-			<div class="group">
-				<a href="forget.html" class="forget">Forget Password</a> 
-				<a href="Register.html">Signup</a>
-			</div>
-		</div>
+    <div class="group">
+      <a href="index.html">Login In</a>
+    </div>
+  </div>
 
-		</form>
 
-		<!-- Popup trigger checkbox -->
+</form>
+
+<!-- Popup trigger checkbox -->
 <input type="checkbox" id="popupTrigger" hidden>
 
 <!-- Success message -->
-<div class="toast1">You login successfully!</div>
+<div class="toast2">You registered successfully!</div>
+
+
 		
 	</section>
 </body>
