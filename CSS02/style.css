@@ -287,41 +287,4 @@ section {
 }
 
 
-@media (max-width: 768px) {
-  .VS {
-    width: 95%;
-    padding: 15px 12px;
-    border-radius: 10px;
-  }
-
-  .VS h2 {
-    font-size: 2rem;
-  }
-
-  .VS h3 {
-    font-size: 1.2rem;
-  }
-
-  .inputBox input,
-  #btn {
-    padding: 12px;
-    font-size: 0.9rem;
-  }
-
-  .group {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .girl {
-    height: 40%;
-    bottom: 5%;
-    animation: moveBikeLeftMobile 10s linear infinite;
-  }
-
-  @keyframes moveBikeLeftMobile {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
-  }
-}
 
