@@ -301,3 +301,41 @@ section {
 @keyframes uncheck {
   100% { transform: none; } 
 }
+
+@media (max-width: 768px) {
+
+    .VS {
+        width: 90%;
+        max-width: 400px;
+        padding: 30px;
+    }
+    .VS h2 {
+        font-size: 40px;
+    }
+    .VS h3 {
+        font-size: 30px;
+    }
+    #btn {
+        width: 100%;
+        padding: 12px;
+    }
+    .group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .group a { 
+        text-align: center;
+    }
+    .inputBox input {
+        padding: 12px;
+    }
+    .girl {
+        height: 50%;
+        bottom: 15%;
+    }
+    .toast1, .toast2, .toast3 {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
