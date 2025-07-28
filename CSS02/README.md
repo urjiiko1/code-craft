@@ -198,8 +198,6 @@ Connect with me and see more of my work here:
 
 [`LinkedIn Profile`](https://www.linkedin.com/in/gemachis-tesfaye-137196318) 💼
 
-[`Telegram`](https://t.me/urjiiko1) 🌐
-
 Website/Portfolio **Soon** 🚀
 
 ----
