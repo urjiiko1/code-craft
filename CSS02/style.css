@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   height: 100vh;
+}
+.bg{
+    height: 100vh;
+    width: 100%;
+}
+.trees{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+.login {
+    position: absolute;
+    left:35%;
+    top: 20%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     gap: 20px;
+     background-color: rgba(255, 255, 255, 0.208);
+     backdrop-filter: blur(10px);
+     width: 450px;
+     height: 500px;
+     padding: 40px;
+     border-radius: 15px;
+     border: .5px solid rgba(255, 255, 255, 0.56);
+     box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.097);
+}
+.login div{
+    width: 100%;
+}
+h2{
+width: 100%;
+text-align: center;
+color: #90281F;
+ font-size:3rem ;
+ font-family: 'Poppins', sans-serif;
+}
+.inputBox input{
+ width: 100%;
+ padding: 15px;
+ border-radius: 5px;
+ border: none;
+ color: #90281F;
+ outline: none;
+ text-transform: capitalize;
+}
+.inputBox input::placeholder{
+    color: #90281F;
+}
+
+#btn{
+    background-color: #90281F;
+    color: white;
+    cursor: pointer;
+    transition: .3s ease;
+}
+#btn:hover{
+   opacity: 0.8;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.group a{
+ color: #90281F;
+}
+.forget{
+    text-decoration: none;
+}
