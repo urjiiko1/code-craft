@@ -12,6 +12,10 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden; 
+    body {
+    background: url('bg.jpg') no-repeat center center/cover;
+}
+
 }
 
 section {
@@ -135,8 +139,8 @@ section {
 
     background-color: rgba(255, 255, 255, 0.208);
     backdrop-filter: blur(10px);
-    width: 450px;
-    max-width: 90%;
+    width: 90%;
+    max-width: 400px;
     height: auto;
     max-height: 90vh;
     padding: 40px;
@@ -307,7 +311,6 @@ section {
 
     .VS {
         width: 90%;
-        max-width: 400px;
         padding: 30px;
     }
     .VS h2 {
