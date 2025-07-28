@@ -12,14 +12,10 @@ body {
     justify-content: center;
     align-items: center;
     overflow-x: hidden; 
-    background: url('bg.jpg') no-repeat center center/cover;
     margin: 0;
 }
 
-html, body {
-    max-width: 100vw;
-    overflow-x: hidden;
-}
+
 
 
 section {
@@ -286,54 +282,6 @@ section {
   100% { transform: none; } 
 }
 
-@media (max-width: 768px) {
-  .VS {
-    width: 95%;
-    padding: 20px 15px;
-    border-radius: 12px;
-  }
 
-  .VS h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-  }
-
-  .VS h3 {
-    font-size: 1.3rem;
-    margin-bottom: 15px;
-  }
-
-  .inputBox input {
-    font-size: 1rem;
-    padding: 12px;
-  }
-
-  #btn {
-    padding: 12px;
-    font-size: 1rem;
-    border-radius: 8px;
-  }
-
-  .group {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .girl {
-    height: 40%;
-    bottom: 10%;
-    animation: moveBikeLeftMobile 10s linear infinite;
-  }
-
-  @keyframes moveBikeLeftMobile {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
-  }
-
-  .leaves .set div {
-    width: 40px;
-    height: 40px;
-  }
-}
 
 
