@@ -142,8 +142,15 @@ Here are some previews of what the pages look like in action:
 
 ## 🐛 Known Issues
 
-- Some older browsers may not fully support `backdrop-filter` used in glassmorphism.
-- Toast notifications may need enhancements for screen readers.
+- 🧊 **Limited Support for backdrop-filter in Older Browsers:** Some legacy browsers may not fully support the CSS backdrop-filter property, which is essential for the glassmorphism effect.
+- 🗣️ **Accessibility Gaps in Toast Notifications:** Toast success messages currently lack screen reader support. Enhancements like aria-live regions could improve accessibility.
+- 📱 **Mobile Layout Not Fully Optimized:** Some visual elements may not display correctly on smaller screens or devices.
+
+- 🚫 **Form Validation Not Triggering (`required` not working):**  Form buttons use `<label for="checkbox">` instead of actual `<button type="submit">`. This prevents browser validation from working. Empty forms can still trigger the toast messages without checking fields.
+
+  **Suggestion:** Replace labels with proper submit buttons:
+  ```html
+  <button type="submit">Login</button>
 ----
 
 ## 🔮 Future Enhancements
