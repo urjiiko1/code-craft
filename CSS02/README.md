@@ -1,5 +1,5 @@
 
-# 🍂✨ Welcome to this Web Pages
+# 🍂✨ Animated Glassmorphism Login System
 
 Welcome to this Web login Pages project! 🎉 This collection features beautifully animated, modern web pages for Login, Sign Up, and Forget Password, crafted with a **glassmorphism aesthetic** and delightful **CSS animations**, creating a serene, atmospheric user experience. 🌅
 
@@ -205,7 +205,11 @@ Website/Portfolio **Soon** 🚀
 ----
 ## 💌 Feedback or Suggestions?
 
-If you have any ideas to improve this project or want to collaborate, feel free to reach out through [Telegram](https://t.me/urjiiko1) or [GitHub Issues](https://github.com/urjiiko1/code-craft/issues). I'd love to hear from you!
+Have ideas to improve this project or want to collaborate? Reach out via: 
+- [Telegram](https://t.me/urjiiko1) 
+- [GitHub Issues](https://github.com/urjiiko1/code-craft/issues). 
+
+I'd love to hear from you!
 
 
 ----
