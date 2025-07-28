@@ -136,6 +136,7 @@ section {
     background-color: rgba(255, 255, 255, 0.208);
     backdrop-filter: blur(10px);
     width: 450px;
+    max-width: 90%;
     height: auto;
     max-height: 90vh;
     padding: 40px;
@@ -338,4 +339,17 @@ section {
         padding: 10px 20px;
         font-size: 15px;
     }
+}
+
+@media (max-width: 480px) {
+    .girl {
+        display: none;
+    }
+    .trees {
+display: none;
+    }
+.leaves.set div {
+    display: none;
+}
+    
 }
