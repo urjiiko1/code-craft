@@ -252,24 +252,24 @@ section {
 #popupTrigger:checked ~ .toast1 {
   opacity: 1;
   visibility: visible;
-  animation: fadeout 3s forwards;
+  animation: fadeout 6s forwards;
 }
 
 #popupTrigger:checked ~ .toast2 {
   opacity: 1;
   visibility: visible;
-  animation: fadeout 3s forwards;
+  animation: fadeout 6s forwards;
 }
 
 #popupTrigger:checked ~ .toast3 {
   opacity: 1;
   visibility: visible;
-  animation: fadeout 3s forwards;
+  animation: fadeout 6s forwards;
 }
 
 
 #popupTrigger:checked {
-  animation: uncheck 3s forwards;
+  animation: uncheck 6s forwards;
 }
 
 @keyframes fadeout {
