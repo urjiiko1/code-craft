@@ -1,5 +1,5 @@
 
-# 🍂✨ Welcome to this Web Pages
+# 🍂✨ Animated Glassmorphism Login System
 
 Welcome to this Web login Pages project! 🎉 This collection features beautifully animated, modern web pages for Login, Sign Up, and Forget Password, crafted with a **glassmorphism aesthetic** and delightful **CSS animations**, creating a serene, atmospheric user experience. 🌅
 
@@ -142,8 +142,15 @@ Here are some previews of what the pages look like in action:
 
 ## 🐛 Known Issues
 
-- Some older browsers may not fully support `backdrop-filter` used in glassmorphism.
-- Toast notifications may need enhancements for screen readers.
+- 🧊 **Limited Support for backdrop-filter in Older Browsers:** Some legacy browsers may not fully support the CSS backdrop-filter property, which is essential for the glassmorphism effect.
+- 🗣️ **Accessibility Gaps in Toast Notifications:** Toast success messages currently lack screen reader support. Enhancements like aria-live regions could improve accessibility.
+- 📱 **Mobile Layout Not Fully Optimized:** Some visual elements may not display correctly on smaller screens or devices.
+
+- 🚫 **Form Validation Not Triggering (`required` not working):**  Form buttons use `<label for="checkbox">` instead of actual `<button type="submit">`. This prevents browser validation from working. Empty forms can still trigger the toast messages without checking fields.
+
+  **Suggestion:** Replace labels with proper submit buttons:
+  ```html
+  <button type="submit">Login</button>
 ----
 
 ## 🔮 Future Enhancements
@@ -191,14 +198,16 @@ Connect with me and see more of my work here:
 
 [`LinkedIn Profile`](https://www.linkedin.com/in/gemachis-tesfaye-137196318) 💼
 
-[`Telegram`](https://t.me/urjiiko1) 🌐
-
-Website/Portfolio **Soon** 🚀
+Portfolio **Soon😊** 🚀
 
 ----
 ## 💌 Feedback or Suggestions?
 
-If you have any ideas to improve this project or want to collaborate, feel free to reach out through [Telegram](https://t.me/urjiiko1) or [GitHub Issues](https://github.com/urjiiko1/code-craft/issues). I'd love to hear from you!
+Have ideas to improve this project or want to collaborate? Reach out via: 
+- [Telegram](https://t.me/urjiiko1) 
+- [GitHub Issues](https://github.com/urjiiko1/code-craft/issues). 
+
+I'd love to hear from you!
 
 
 ----
@@ -207,5 +216,4 @@ If you have any ideas to improve this project or want to collaborate, feel free 
 
 This project was completed on: July 28, 2025 🗓️
 
----
 
