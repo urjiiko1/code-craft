@@ -82,10 +82,10 @@
     margin: 20px 0px;
     box-shadow: var(--box-shadow);
 }
-.wrong-answer{
+.wrong{
     background-color: #ff6868;
 }
-.correct-answer{
+.correct{
     background-color: #63ff85;
 }
 .question > * {
