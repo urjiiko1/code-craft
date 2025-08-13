@@ -6,7 +6,7 @@ It displays multiple-choice questions, calculates the score and highlights corre
 ---
 
 ## 🚀 Live Demo
-[Click here to try the live quiz](https://urjiiko1.github.io/code-craft/Project%20Assignement/QuizApp)
+**[Click here to try the live quiz](https://urjiiko1.github.io/code-craft/Project%20Assignement/QuizApp)**
 
 ---
 
@@ -54,7 +54,7 @@ It displays multiple-choice questions, calculates the score and highlights corre
    ```bash
    git clone [https://github.com/](https://github.com/)[urjiiko1]/quiz-app.git
 
-   ## ⚙️ Installation & Usage
+ 
 
 2.  **Navigate to the project folder**
     ```bash
@@ -89,5 +89,5 @@ The user selects answers to multiple-choice questions. When submitted, the app:
 
 ## 💡 Author
 
-Created with ❤️ by **[Gemachis]**
-[GitHub Profile](https://github.com/[urjiiko1])
+Created with ❤️  **[Gemachis]**
+[GitHub Profile](https://github.com/urjiiko1)
