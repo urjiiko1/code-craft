@@ -11,9 +11,9 @@ A simple, **live** exchange rate calculator that:
 
 ---
 
+## 🌟Live Demo
 
-
-## [🌟 View Project Live Here](https://urjiiko1.github.io/code-craft/Project%20Assignement/exchange-rate)
+## [View Project Live Here](https://urjiiko1.github.io/code-craft/Project%20Assignement/exchange-rate)
 
 ---
 
