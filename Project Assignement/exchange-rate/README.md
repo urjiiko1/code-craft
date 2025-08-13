@@ -54,7 +54,6 @@ A simple, **live** exchange rate calculator that:
 
 
 💬 Want more?
-- ➕ Add more currencies to the `<select>` lists  
-- 🎯 Show precision up to **4 decimals**  
+- ➕ Add more currencies to the `<select>` lists   
 - 🕒 Display **last-updated** timestamp  
 Just ask and I’ll add it!  
