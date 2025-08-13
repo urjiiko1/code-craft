@@ -58,3 +58,10 @@ A simple, **live** exchange rate calculator that:
 - 🕒 Display **last-updated** timestamp 
 
 ` 📩 Just ask and I’ll add it! ` 
+
+---
+
+## 💡 Author
+
+Created with ❤️  **[Gemachis]**
+[GitHub Profile](https://github.com/urjiiko1)
