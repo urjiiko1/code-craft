@@ -3,18 +3,18 @@
 
 A simple Expense Tracker app that lets you:
 - Add income & expense transactions
-- View total balance, income, and expenses
+- View total balance, income and expenses
 - Delete transactions
 - Data persists using **Local Storage**
 
+
+
+
 ---
 
 
----
 
-## 🚀 Live Demo
-
-## [View Project Live Here](https://urjiiko1.github.io/code-craft/Project%20Assignement/expense-tracker) 
+## 🚀 [View Project Live Here](https://urjiiko1.github.io/code-craft/Project%20Assignement/expense-tracker) 
 
 ---
 
