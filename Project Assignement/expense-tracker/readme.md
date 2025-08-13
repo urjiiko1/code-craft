@@ -9,16 +9,19 @@ A simple Expense Tracker app that lets you:
 
 ---
 
-## 📸 Screenshot
-![Expense Tracker Screenshot](screenshot.png)
 
 ---
 
 ## 🚀 Live Demo
 
-**[View Project Live Here](https://urjiiko1.github.io/code-craft/Project%20Assignement/expense-tracker)**
+## [View Project Live Here](https://urjiiko1.github.io/code-craft/Project%20Assignement/expense-tracker) 
 
 ---
+
+## 📸 Screenshot
+![Expense Tracker Screenshot](screenshot.png)
+
+
 
 ## 📦 Features
 - **Add Transactions** — Positive = income, Negative = expense
