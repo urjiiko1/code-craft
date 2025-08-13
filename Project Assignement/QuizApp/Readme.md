@@ -38,6 +38,7 @@ It displays multiple-choice questions, calculates the score and highlights corre
 ---
 
 ## 📂 Project Structure
+```
 📦 quiz-app
 ┣ 📂 screenshot
 ┃ ┣ 📜 quiz.png
@@ -46,6 +47,7 @@ It displays multiple-choice questions, calculates the score and highlights corre
 ┣ 📜 style.css
 ┣ 📜 app.js
 ┗ 📜 README.md
+```
 
 ---
 
