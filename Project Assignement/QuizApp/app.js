@@ -27,7 +27,7 @@ form.addEventListener('submit', (e) =>{
     result.querySelector("p").textContent = `You scored ${res}% 🎯`;
 
     window.scrollTo({
-        top:result.offsetTop -20,
+        top:0,
         behavior: "smooth"
     });
 
