@@ -10,7 +10,7 @@ A simple Expense Tracker app that lets you:
 ---
 
 ## 📸 Screenshot
-![`Expense Tracker Screenshot`](screenshot.png)
+![Expense Tracker Screenshot](screenshot.png)
 
 ---
 
