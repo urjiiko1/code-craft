@@ -27,6 +27,7 @@ It displays multiple-choice questions, calculates the score and highlights corre
 - 🎯 Highlights correct and wrong answers
 - 🔄 Option to retake the quiz
 - 📱 Fully responsive design
+- ⬆️ **Smoothly scrolls to the top of the page for results**
 
 ---
 
