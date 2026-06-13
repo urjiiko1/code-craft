@@ -1,6 +1,6 @@
 # 🎓 Summer Bootcamp – Frontend Projects 💻
 
-A portfolio of **10 frontend projects** built during the  
+A portfolio of **6 frontend projects** with **4 practice exercises** built during the  
 **ISHUB AAU Summer Bootcamp 2025 – Frontend Development Track**.
 
 📍 **Institution:** Addis Ababa University (AAU) – ISHUB  
