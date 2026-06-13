@@ -3,7 +3,7 @@
 
 A lightweight, vanilla JS frontend learning platform — hands-on demos, interactive tools and curated learning paths to accelerate frontend skills. **Built with pure HTML/CSS/JS.**
 
-# [🔗 Live Demo](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/Frontend-Development2026)
+# [🔗 Live Demo](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/frontend-learning-hub)
 
 ---
 
@@ -30,7 +30,7 @@ A lightweight, vanilla JS frontend learning platform — hands-on demos, interac
 
 ### 📁 Project Structure
 ```text
-Frontend-Development2026/
+frontend-learning-hub/
 ├── css/            # Custom stylesheets
 ├── images/         # Assets and brand graphics
 ├── js/             # JavaScript logic
@@ -50,7 +50,7 @@ git clone https://github.com/gemachistesfaye/Summer-Bootcamp-Projects.git
 
 2. **Navigate to the folder**
 ```bash
-cd Summer-Bootcamp-Projects/Frontend-Development2026
+cd Summer-Bootcamp-Projects/frontend-learning-hub
 ```
 
 3. **Run Locally**

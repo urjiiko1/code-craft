@@ -4,7 +4,7 @@
 
 ---
 
-## 🌐 [**View Live Demo**](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/css-practice/) 
+## 🌐 [**View Live Demo**](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/css-layout-exercises/) 
 
 ---
 
@@ -32,7 +32,7 @@
 ## 📂 Project Structure
 
 ```text
-css-practice/
+css-layout-exercises/
 │
 ├── 📂 image/          # Team profile photos & local assets
 ├── 📄 index.html      # Main agency structure & sections

@@ -4,7 +4,7 @@
 
 ---
 
-## 🔗 [**View Live Demo**](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/JS-Practice/)
+## 🔗 [**View Live Demo**](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/js-logic-lab/)
 
 ---
 
@@ -40,7 +40,7 @@
     ```
 2. **Navigate to the folder:**
     ```bash
-    cd Summer-Bootcamp-Projects/JS-Practice
+    cd Summer-Bootcamp-Projects/js-logic-lab
     ```
 3. **Launch the app:**
     Simply open `index.html` in your browser. (Note: Ensure `style.css` and `script.js` are in the same directory). 🚀
