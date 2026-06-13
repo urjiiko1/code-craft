@@ -1,9 +1,6 @@
-# 🧩 Task Hub – Personal Productivity Workspace
+# 🧩 Task Hub
 
-Task Hub is a modern, responsive productivity workspace built using **HTML, TailwindCSS and JavaScript**.  
-It simulates a lightweight personal operating system that helps users manage tasks, track focus sessions and personalize their workspace — all powered by local storage.
-
-> A frontend-focused project demonstrating UI design, state management and responsive layout architecture.
+A modern productivity workspace with task management, deep work timer, profile customization and dark mode. Built with **HTML, TailwindCSS and JavaScript**.
 
 ---
 
@@ -15,13 +12,9 @@ It simulates a lightweight personal operating system that helps users manage tas
 
 ## 📸 Screenshots
 
-### 🖥 Desktop Views
-
 | Dashboard | Deep Work Timer | Profile |
 |------------|----------------|----------|
 | ![Dashboard](./screenshots/dashboard.png) | ![Timer](./screenshots/timer.png) | ![Profile](./screenshots/profile.png) |
-
-### 📱 Mobile Views
 
 | Settings | Task Feed | Boot System |
 |-----------|------------|-------------|
@@ -29,88 +22,33 @@ It simulates a lightweight personal operating system that helps users manage tas
 
 ---
 
-# 📌 Project Overview
+## ✨ Features
 
-### 🎯 Problem
-
-Many simple task managers lack:
-- Visual feedback
-- Focus tracking tools
-- Personalization features
-- A modern and immersive interface
-
-### 💡 Solution
-
-Task Hub provides:
-- Categorized task management
+- Categorized task management (Personal, Work, Urgent)
 - Built-in Deep Work timer (Pomodoro-style)
-- Dynamic dashboard analytics
-- User profile customization
-- A responsive and visually engaging UI
-
-All implemented using **pure frontend technologies** without external backend services.
-
----
-
-# ✨ Core Features
-
-## 📋 Task Management
-- Add new tasks (Directives)
-- Categorize tasks (Personal, Work, Urgent)
-- Real-time search and filtering
-- Dynamic completion tracking
+- User profile customization with onboarding boot screen
+- Dashboard analytics with completion rate
+- Glassmorphism UI with dark/light theme toggle
+- Mobile navigation drawer
 - Persistent storage using `localStorage`
 
-## ⏱ Deep Work Timer
-- Custom focus duration input
-- Start / Pause / Reset controls
-- Focus mode indicator
-- Real-time countdown display
+---
 
-## 👤 User Profile System
-- Onboarding boot screen
-- Editable name, age, job title and bio
-- Dynamic avatar generation
-- Local profile persistence
+## 🛠️ Tech Stack
 
-## 📊 Dashboard Analytics
-- Completion rate calculation
-- Processor load simulation bar
-- Responsive grid layout
-- Clean data visualization elements
-
-## 🎨 UI & Experience
-- Glassmorphism interface
-- Dark / Light theme toggle
-- Mobile navigation drawer
-- Smooth transitions & micro-interactions
-- Fully responsive design (Desktop & Mobile)
+| Technology | Purpose |
+|------------|----------|
+| **HTML5** | Semantic structure |
+| **TailwindCSS** | Utility-first styling |
+| **JavaScript (ES6+)** | Core logic & DOM manipulation |
+| **LocalStorage** | Data persistence |
 
 ---
 
-# 🛠 Technical Implementation
-
-## 🧠 State Management
-- Application state handled with JavaScript
-- Data stored and retrieved via `localStorage`
-- Dynamic DOM rendering for tasks and user data
-
-## 📱 Responsive Architecture
-- TailwindCSS utility-based design
-- Mobile-first layout adjustments
-- Sidebar transforms into mobile navigation drawer
-
-## 🎨 Theme Engine
-- Theme toggling via dataset attributes
-- Persistent theme preference stored locally
-
----
-
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```
-task-hub/
-│
+personal-task-manager/
 ├── screenshots/
 │   ├── dashboard.png
 │   ├── timer.png
@@ -118,58 +56,28 @@ task-hub/
 │   ├── setting.jpg
 │   ├── task.jpg
 │   └── Boot-system.jpg
-│
 ├── index.html
 ├── style.css
 ├── script.js
-└── Readme.md
+└── README.md
 ```
 
 ---
 
-# ⚠️ Current Limitations
+## ⚙️ Installation
 
-The **Account Settings** section is currently UI-only and does not include backend functionality.
-
-The following features are placeholders:
-
-- 🔐 Security & Authentication  
-- 🔔 Notifications  
-- 💳 Billing & Subscription  
-
-No real authentication or database integration is implemented yet.  
-All data is stored locally in the browser.
-
----
-
-# 🚧 Future Improvements
-
-- Backend authentication system
-- Cloud database integration
-- Real analytics dashboard
-- Notification system
-- Progressive Web App (PWA)
-- Multi-user account support
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gemachistesfaye/Summer-Bootcamp-Projects.git
+   ```
+2. Navigate to the folder:
+   ```bash
+   cd Summer-Bootcamp-Projects/personal-task-manager
+   ```
+3. Open `index.html` in your browser.
 
 ---
 
-# 🎓 What This Project Demonstrates
+## 👤 Author
 
-- Strong frontend UI development
-- Responsive layout architecture
-- JavaScript DOM manipulation
-- Local storage data persistence
-- Clean component-like structure
-- User-centered design thinking
-
----
-
-# 💡 Author
-
-Built with focus and precision by **Gemachis**
-
-🔗 GitHub: https://github.com/gemachistesfaye
-
----
-
-> Task Hub is not just a to-do app — it’s a structured productivity workspace built to simulate a lightweight personal operating system.
+**Gemachis Tesfaye** — [GitHub](https://github.com/gemachistesfaye)

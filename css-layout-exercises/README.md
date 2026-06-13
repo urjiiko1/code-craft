@@ -1,6 +1,6 @@
-# 🎨 CSS PRACTICE — Crafting Digital Experiences
+# 🎨 CSS Practice
 
-**CSS Practice** is a modern, responsive **Creative Agency landing page** built to showcase clean layouts, advanced CSS techniques and real-world UI sections using pure HTML and CSS. It focuses on structure, responsiveness and visual clarity. 🚀
+A modern creative agency landing page showcasing clean layouts, advanced CSS techniques and responsive design.
 
 ---
 
@@ -10,57 +10,39 @@
 
 ---
 
-## 🚀 Key Sections
+## ✨ Features
 
-* **🖼️ Hero Section** – Full-width responsive hero with CTA and background imagery  
-* **🛠️ Features Area** – Service cards for Web Development, UI/UX, Data Analytics and Mobile Apps  
-* **👥 Team Section** – Profile cards with social icons and hover effects  
-* **💳 Pricing Table** – Tiered pricing plans with highlighted popular option  
-* **📩 Contact Form** – Clean and accessible project inquiry form  
+- Full-width responsive hero section with CTA
+- Service cards for Web Development, UI/UX, Data Analytics and Mobile Apps
+- Team profile cards with social icons and hover effects
+- Tiered pricing table with highlighted popular option
+- Clean contact form
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 | Technology | Purpose |
-| :--- | :--- |
-| **HTML5** | Semantic and accessible structure |
-| **CSS3** | Flexbox, Grid, responsiveness, animations |
-| **Font Awesome** | Iconography |
-| **Unsplash Images** | High-quality visuals |
+|------------|----------|
+| **HTML5** | Semantic structure |
+| **CSS3** | Flexbox, Grid, animations |
+| **Font Awesome** | Icons |
+| **Unsplash Images** | Visuals |
 
 ---
 
 ## 📂 Project Structure
 
-```text
+```
 css-layout-exercises/
-│
-├── 📂 image/          # Team profile photos & local assets
-├── 📄 index.html      # Main agency structure & sections
-├── 🎨 style.css       # Core styling, layouts and animations
-└── 📝 README.md       # Project documentation
+├── image/
+├── index.html
+├── style.css
+└── README.md
 ```
 
 ---
 
-## 👥 Team
+## 👤 Author
 
-* **Gemachis** — Front-end Developer 💻  
-* **Daagim** — Data Analyst 📊  
-* **Simalee** — Graphic Designer 🎨  
-
----
-
-## 📬 Contact
-
-**Gemachis Tesfaye**  
-* **📧 Email**  [gemachistesfaye36@gmail.com](mailto:gemachistesfaye36@gmail.com) 
-* **🐙 GitHub**  [@gemachistesfaye](https://github.com/gemachistesfaye) 
-* **📱 Phone**  [+251 976 601 074](tel:+251976601074) 
-* **💬 Telegram**  [Gemachis | Data & Dev](https://t.me/GemachisTesfaye) 
-
----
- 
-If you like this project, consider giving it a **star** on GitHub. ⭐   
- © 2025 — Built with ❤️ and Modern CSS
+**Gemachis Tesfaye** — [GitHub](https://github.com/gemachistesfaye)

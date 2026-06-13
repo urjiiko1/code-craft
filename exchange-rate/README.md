@@ -1,12 +1,6 @@
-# 💱 Exchange Rate Calculator
+# 💱 Smart Exchange
 
-A simple, **live** exchange rate calculator that:  
-- 🌍 Lets you pick **two currencies**  
-- 📊 Shows **current rate** and **converted value**  
-- 🔃 Supports **swapping currencies**  
-- ⌛ Debounced input for efficient API calls  
-
-💡 Rates come from: `https://open.er-api.com/v6/latest/{BASE}` (free endpoint)
+A live currency exchange rate calculator with real-time API data, swap support and debounced input.
 
 ---
 
@@ -16,50 +10,60 @@ A simple, **live** exchange rate calculator that:
 
 ---
 
+## 📸 Screenshots
 
-
-## 📸 Screenshot
 ![Exchange Rate Screenshot](Screenshot.png)
 
 ---
 
-## 📂 Files
-- `index.html` — 📜 App markup  
-- `style.css` — 🎨 Styles  
-- `script.js` — 🧠 Logic & API calls  
+## ✨ Features
+
+- Pick two currencies from 50+ options
+- Real-time rate display and conversion
+- Swap currencies with one click
+- Debounced input for efficient API calls
+- Error handling for failed requests
+- Responsive design
 
 ---
 
-## 🖥 Run Locally
-1. 📁 Put all files in a folder.  
-2. 🌐 Open `index.html` in your browser (**no server required**).  
-3. 📡 The app fetches **live rates**; no API key needed.  
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| **HTML5** | Semantic structure |
+| **CSS3** | Styling & Layout |
+| **JavaScript (ES6+)** | Logic & DOM manipulation |
+| **Fetch API** | Real-time exchange rates |
 
 ---
 
-## 🚀 Deploy to GitHub Pages
-1. 🛠 Create a repo and **push these files**.  
-2. ⚙ Go to **Settings → Pages**, select `main` branch and `/ (root)`.  
-3. ⏳ Wait a minute and open the **published URL**.  
+## 📂 Project Structure
+
+```
+exchange-rate/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
 ---
 
-## 📝 Notes
-- ⌛ **Debounce:** Typing waits ~400ms before triggering conversion.  
-- 🚫 **Error Handling:** If API fails, an error message will appear.  
+## ⚙️ Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gemachistesfaye/Summer-Bootcamp-Projects.git
+   ```
+2. Navigate to the folder:
+   ```bash
+   cd Summer-Bootcamp-Projects/exchange-rate
+   ```
+3. Open `index.html` in your browser (no server required).
 
 ---
 
+## 👤 Author
 
-💬 Want more?
-- ➕ Add more currencies to the `<select>` lists   
-- 🕒 Display **last-updated** timestamp 
-
-` 📩 Just ask and I’ll add it! ` 
-
----
-
-## 💡 Author
-
-Created with ❤️  **[Gemachis]**
-[GitHub Profile](https://github.com/gemachistesfaye)
+**Gemachis Tesfaye** — [GitHub](https://github.com/gemachistesfaye)

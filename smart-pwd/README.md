@@ -1,10 +1,8 @@
-﻿# 🛡️ Smart PWD — Password Generator
+﻿# 🔐 Smart PWD
 
-[![Live Demo](https://img.shields.io/badge/demo-live-orange?style=flat-square)](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/smart-pwd/)
+A cryptographic password generator with Web Crypto API, memorable builder mode, password vault and strength analysis.
 
-A premium, high-entropy cryptographic password generator built with a privacy-first philosophy — everything runs locally, no telemetry, no servers.
-
-
+---
 
 ## 🚀 Live Demo
 
@@ -13,79 +11,54 @@ A premium, high-entropy cryptographic password generator built with a privacy-fi
 ---
 
 ## ✨ Features
-- 🔐 High-Entropy Generation — uses the Web Crypto API for cryptographically secure randomness.
-- 🛡️ Zero-Data Policy — no cookies, no trackers, no server-side storage.
-- 🧠 Memorable Builder — "Easy Mode" to craft strong, human-readable passwords.
-- 🗂️ Recent Vault — password history stored in `localStorage` for easy access.
-- 🎨 Modern UI — Glassmorphism, responsive layout, Dark & Light modes.
-- 📱 Mobile Optimized — smooth mobile navigation and touch support.
 
-## 🚀 Tech Stack
-- Frontend: Semantic HTML5, CSS3 (Flexbox/Grid, custom properties)  
-- Logic: Vanilla JavaScript (ES6+)  
-- Security: Web Crypto API (window.crypto)  
-- Icons: Lucide-JS
+- High-entropy generation via Web Crypto API
+- Zero-data policy — no cookies, no trackers, no server storage
+- Memorable Builder — craft human-readable passwords
+- Recent Vault — password history in `localStorage`
+- Glassmorphism UI with dark/light modes
+- Mobile optimized with touch support
 
-## 🔒 Security Standards
-1. Local Execution — all logic runs client-side.  
-2. Minimal Dependencies — reduces supply-chain risk.  
-3. Privacy-Centric — no analytics or data collection.
+---
 
-## 🛠️ Installation & Setup
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| **HTML5** | Semantic structure |
+| **CSS3** | Flexbox/Grid, custom properties |
+| **JavaScript (ES6+)** | Core logic & DOM manipulation |
+| **Web Crypto API** | Cryptographic randomness |
+| **Lucide-JS** | Icons |
+
+---
+
+## 📂 Project Structure
+
+```
+smart-pwd/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
 1. Clone the repository:
-```bash
-git clone https://github.com/gemachistesfaye/Summer-Bootcamp-Projects.git
-```
-2. Open the project folder:
-```bash
-cd smart-pwd
-```
-3. Launch:
-```bash
-# Open index.html in any modern browser (no build required)
-open index.html   # macOS
-start index.html  # Windows
-# or double-click index.html in the file explorer
-```
+   ```bash
+   git clone https://github.com/gemachistesfaye/Summer-Bootcamp-Projects.git
+   ```
+2. Navigate to the folder:
+   ```bash
+   cd Summer-Bootcamp-Projects/smart-pwd
+   ```
+3. Open `index.html` in your browser.
 
-## 🤝 Contributing
-- Fork the repo  
-- Create a branch:
-```bash
-git checkout -b feature/AmazingFeature
-```
-- Commit:
-```bash
-git commit -m "Add AmazingFeature"
-```
-- Push and open a PR:
-```bash
-git push origin feature/AmazingFeature
-```
+---
 
-## 👤 Developer  
+## 👤 Author
 
-  ✉️ Email: [gemachistesfaye36@gmail.com](mailto:gemachistesfaye36@gmail.com)  
-  📞 Phone: [+251976601074](tel:+251976601074)  
-  📍 Location: Adaama, Ethiopia  
-
-<p align="center">
-  <a href="https://x.com/GemachisTe79854">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge" alt="Twitter" />
-  </a>
-  <a href="https://www.instagram.com/urjiiko1">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge" alt="Instagram" />
-  </a>
-  <a href="https://www.linkedin.com/in/gemachis-tesfaye-137196318">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/gemachistesfaye">
-    <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub" />
-  </a>
-  <a href="https://t.me/GemachisTesfaye">
-    <img src="https://img.shields.io/badge/Telegram-0088CC?logo=telegram&logoColor=white&style=for-the-badge" alt="Telegram" />
-  </a>
-</p>
-
-
-
+**Gemachis Tesfaye** — [GitHub](https://github.com/gemachistesfaye)

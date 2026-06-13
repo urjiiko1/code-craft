@@ -1,89 +1,65 @@
-# 🧠 JS LOGIC LAB
+# ⚡ JS Logic Lab
 
-**JS Logic Lab** is a high-performance, interactive playground designed for analyzing and mastering JavaScript core concepts. From type coercion quirks to complex iterative algorithms and modern array methods, this dashboard provides a real-time environment to visualize and test JavaScript logic. 🧪✨
+An interactive JavaScript playground for analyzing type coercion, branching logic, iterative algorithms and array methods.
 
 ---
 
 ## 🚀 Live Demo
 
-👉 **[View Live Demo](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/js-logic-lab/)
+👉 **[View Live Demo](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/js-logic-lab/)**
 
 ---
 
-## 🚀 Key Modules
+## ✨ Features
 
-* **🔢 01 Type Coercion Engine** – Visualize how JavaScript handles implicit and explicit type conversions.
-* **🌳 02 Branching Logic** – Interactive status checkers, voter verification and thermal analysis tools.
-* **🔁 03 Iterative Processors** – Calculate Factorials, Fibonacci sequences and Prime numbers.
-* **🏹 04 Advanced Logic Functions** – Test mathematical mean calculations and primality verification.
-* **📊 05 Array Operation Matrix** – A live sandbox to manipulate data using `map`, `filter`, `reduce`, `sort` and `splice`.
-* **🔍 Code Transparency** – Inspect underlying source logic via syntax-highlighted overlays.
+- Type Coercion Engine — visualize implicit/explicit conversions
+- Branching Logic — status checkers, voter verification, thermal analysis
+- Iterative Processors — factorial, Fibonacci, prime numbers
+- Advanced Logic Functions — mean calculation, primality verification
+- Array Operation Matrix — map, filter, reduce, sort, splice
+- Source code viewer for each module
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 | Technology | Purpose |
-| :--- | :--- |
-| **🌐 HTML5** | Modern semantic structure |
-| **🎨 Tailwind CSS** | Utility-first styling & Dark Mode |
-| **💛 JavaScript (ES6+)** | Core logical engine |
-| **✨ Inline SVGs** | Lightweight iconography |
+|------------|----------|
+| **HTML5** | Semantic structure |
+| **TailwindCSS** | Utility-first styling & dark mode |
+| **JavaScript (ES6+)** | Core logic engine |
+| **SVG** | Lightweight icons |
 
 ---
 
-## 📂 Installation & Usage
+## 📂 Project Structure
 
-### 💻 Local Setup
-
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/gemachistesfaye/Summer-Bootcamp-Projects.git
-    ```
-2. **Navigate to the folder:**
-    ```bash
-    cd Summer-Bootcamp-Projects/js-logic-lab
-    ```
-3. **Launch the app:**
-    Simply open `index.html` in your browser. (Note: Ensure `style.css` and `script.js` are in the same directory). 🚀
-
-### 🎮 How It Works
-
-* **🧪 Running Tests:** Input values into the fields and click the action buttons (e.g., **PROBE**, **CALCULATE**, **VERIFY**) to see immediate results in the console-style output boxes.
-* **📖 Viewing Source:** Click the **Code** button on any section to open an overlay displaying the exact JavaScript function powering that module.
-* **📉 Array Matrix:** Click different array method buttons (**MAP**, **SORT**, etc.) to see how the global array `[5, 11, 14, 6, 9, 19, 4]` is transformed. Use **RESET** to revert to the original state.
-
----
-
-## 📁 Project Structure
-
-```text
-js-logic-lab/
-│
-├── 📂 Code/           # Source logic sub-directory
-│   └── 📄 code.js     # Primary logic functions & raw snippets
-├── 📄 index.html      # Main dashboard structure & UI
-├── 🎨 style.css       # Custom animations and card styling
-├── ⚙️ script.js       # UI Event handlers and DOM logic
-└── 📝 README.md       # Project documentation
 ```
----
-
-## 📬 Connect with Me
-
-If you have questions, feedback or want to collaborate on a logic project, feel free to reach out!
-
-| Channel | Details |
-| :--- | :--- |
-| **📧 Email** | [gemachistesfaye36@gmail.com](mailto:gemachistesfaye36@gmail.com) |
-| **🐙 GitHub** | [@gemachistesfaye](https://github.com/gemachistesfaye) |
-| **📱 Phone** | [+251 976 601 074](tel:+251976601074) |
-| **💬 Telegram** | [Gemachis \| Data & Dev](https://t.me/GemachisTesfaye) |
-
+js-logic-lab/
+├── Code/
+│   └── code.js
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
 ---
 
-### 🌟 Show your support
-If you found this lab helpful, please consider giving it a **Star** on GitHub! ⭐
+## ⚙️ Installation
 
-Copyright © 2026 [gemachistesfaye](https://github.com/gemachistesfaye)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gemachistesfaye/Summer-Bootcamp-Projects.git
+   ```
+2. Navigate to the folder:
+   ```bash
+   cd Summer-Bootcamp-Projects/js-logic-lab
+   ```
+3. Open `index.html` in your browser.
+
+---
+
+## 👤 Author
+
+**Gemachis Tesfaye** — [GitHub](https://github.com/gemachistesfaye)

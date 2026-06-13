@@ -1,7 +1,6 @@
-# 📚 JavaScript Quiz App
+# 📚 Quiz App
 
-A simple and interactive **JavaScript Quiz Application** built using **HTML, CSS and JavaScript**.  
-It displays multiple-choice questions, calculates the score and highlights correct and wrong answers instantly.
+An interactive JavaScript quiz with multiple-choice questions, instant scoring and answer highlighting.
 
 ---
 
@@ -21,16 +20,16 @@ It displays multiple-choice questions, calculates the score and highlights corre
 
 ## ✨ Features
 
-- 🖱 Multiple-choice questions  
-- ✅ Instant result calculation  
-- 🎯 Highlights correct and wrong answers  
-- 🔄 Option to retake the quiz  
-- 📱 Fully responsive design  
-- ⬆️ Smooth scroll to the top when showing results  
+- Multiple-choice questions
+- Instant result calculation
+- Highlights correct and wrong answers
+- Option to retake the quiz
+- Fully responsive design
+- Smooth scroll to top on results
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 | Technology | Purpose |
 |------------|----------|
@@ -44,7 +43,6 @@ It displays multiple-choice questions, calculates the score and highlights corre
 
 ```
 quiz-app/
-│
 ├── screenshot/
 │   ├── quiz.png
 │   └── result.png
@@ -56,46 +54,20 @@ quiz-app/
 
 ---
 
-## ⚙️ Installation & Usage
+## ⚙️ Installation
 
-1. **Clone the repository**
+1. Clone the repository:
    ```bash
    git clone https://github.com/gemachistesfaye/Summer-Bootcamp-Projects.git
    ```
-
-2. **Navigate to the project folder**
+2. Navigate to the folder:
    ```bash
-   cd quiz-app
+   cd Summer-Bootcamp-Projects/quiz-app
    ```
-
-3. **Open `index.html` in your browser**  
-   Or use **Live Server** in VS Code for automatic reload.
+3. Open `index.html` in your browser.
 
 ---
 
-## 📋 How It Works
+## 👤 Author
 
-1. The user selects answers to multiple-choice questions.
-2. When submitted, the app:
-   - Compares selected answers with the correct ones.
-   - Calculates the total score.
-   - Highlights correct answers in 🟢 green.
-   - Highlights wrong answers in 🔴 red.
-   - Displays the final score.
-3. The user can click **"Try Again"** to restart the quiz.
-
----
-
-## 🖌 Customization
-
-- ✏️ Add or edit questions inside `app.js`.
-- 🧠 Each question object has a `correct` property with the index of the correct answer (0-based).
-- 🎨 Modify styles and colors inside `style.css`.
-
----
-
-## 💡 Author
-
-Created with ❤️ by **Gemachis**  
-
-🔗 **GitHub:** https://github.com/gemachistesfaye
+**Gemachis Tesfaye** — [GitHub](https://github.com/gemachistesfaye)
