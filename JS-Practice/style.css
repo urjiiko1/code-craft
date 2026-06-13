@@ -110,3 +110,14 @@
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: #0f172a; }
         ::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+
+        @media (max-width: 768px) {
+            .code-container { height: 70vh; }
+            .code-content { padding: 1rem; font-size: 0.8rem; }
+        }
+
+        @media (max-width: 480px) {
+            .card { margin: 0.5rem; padding: 1rem; }
+            .console-box { font-size: 0.75rem; padding: 0.75rem; }
+            .code-container { height: 60vh; border-radius: 0.5rem; }
+        }

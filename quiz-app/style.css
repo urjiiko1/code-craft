@@ -305,9 +305,21 @@
 
         .restart-btn:hover { background: #312e81; }
 
-        @media (max-width: 600px) {
-            .quiz-stats { padding: 12px 18px; }
+        @media (max-width: 768px) {
+            .app-container { margin-top: 20px; }
+            .quiz-stats { flex-wrap: wrap; gap: 10px; }
+            .progress-container { order: 3; flex-basis: 100%; margin: 0; }
             .question-card { padding: 25px; }
-            .option-label { padding: 14px 18px; }
-            .progress-container { margin: 0 15px; }
+            .q-text { font-size: 1.1rem; }
+        }
+
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            .quiz-stats { padding: 12px 18px; }
+            .question-card { padding: 20px; border-radius: 16px; }
+            .option-label { padding: 14px 18px; border-radius: 12px; }
+            .progress-container { margin: 0 10px; }
+            .btn-submit { padding: 16px 40px; font-size: 1rem; }
+            .score-circle { width: 110px; height: 110px; }
+            .score-circle .percent { font-size: 1.8rem; }
         }

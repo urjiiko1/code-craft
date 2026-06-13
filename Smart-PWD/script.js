@@ -356,17 +356,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
   renderHistory();
 });
-
-const showToast = (msg) => {
-  const toast = document.getElementById("toast"); // Must match id="toast"
-  if (!toast) return;
-  toast.textContent = msg;
-  toast.classList.add("show");
-
-  // Hide it again after 2 seconds
-  setTimeout(() => {
-    toast.classList.remove("show");
-  }, 2000);
-};
-
-document.getElementById("year").textContent = new Date().getFullYear();
