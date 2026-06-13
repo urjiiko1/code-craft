@@ -1,12 +1,12 @@
 ﻿# 🛡️ Smart PWD — Password Generator
 
-[![Live Demo](https://img.shields.io/badge/demo-live-orange?style=flat-square)](https://GemachisTesfaye.github.io/Smart-PWD/)
+[![Live Demo](https://img.shields.io/badge/demo-live-orange?style=flat-square)](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/smart-pwd/)
 
 A premium, high-entropy cryptographic password generator built with a privacy-first philosophy — everything runs locally, no telemetry, no servers.
 
 
 
-##  🔗[Live Demo Link](https://GemachisTesfaye.github.io/Smart-PWD/) 
+##  🔗[Live Demo Link](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/smart-pwd/) 
 
 ---
 
@@ -36,7 +36,7 @@ git clone https://github.com/gemachistesfaye/Summer-Bootcamp-Projects.git
 ```
 2. Open the project folder:
 ```bash
-cd Smart-PWD
+cd smart-pwd
 ```
 3. Launch:
 ```bash

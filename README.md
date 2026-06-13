@@ -1,6 +1,6 @@
 # 🎓 Summer Bootcamp – Frontend Projects 💻
 
-This repository contains a **collection of frontend projects** developed during the  
+A portfolio of **10 frontend projects** built during the  
 **ISHUB AAU Summer Bootcamp 2025 – Frontend Development Track**.
 
 📍 **Institution:** Addis Ababa University (AAU) – ISHUB  
@@ -37,7 +37,7 @@ HTML • CSS • JavaScript
 Interactive multiple-choice quiz with instant results and answer highlighting.
 
 - 📂 **Source Code:** [quiz-app](./quiz-app)
-- 🌐 **Live Demo:** [Click Here](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/QuizApp)
+- 🌐 **Live Demo:** [Click Here](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/quiz-app)
 
 **Technologies Used:**  
 HTML • CSS • JavaScript
@@ -48,7 +48,7 @@ HTML • CSS • JavaScript
 A simple and responsive app for tracking daily income and expenses.
 
 - 📂 **Source Code:** [expense-tracker](./expense-tracker)
-- 🌐 **Live Demo:** [Click Here](https://gemachistesfaye.github.io/Frontend-Showcase/expense-tracker)
+- 🌐 **Live Demo:** [Click Here](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/expense-tracker)
 
 **Technologies Used:**  
 HTML • CSS • JavaScript
@@ -59,31 +59,44 @@ HTML • CSS • JavaScript
 Displays real-time currency exchange rates in a clean and responsive interface.
 
 - 📂 **Source Code:** [exchange-rate](./exchange-rate)
-- 🌐 **Live Demo:** [Click Here](https://gemachistesfaye.github.io/Frontend-Showcase/Project%20Assignement/exchange-rate)
+- 🌐 **Live Demo:** [Click Here](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/exchange-rate)
 
 **Technologies Used:**  
 HTML • CSS • JavaScript • API Fetch
 
 ---
 
+### 6️⃣ Smart PWD – Password Generator
+A cryptographic password generator with Web Crypto API, dark/light mode, and password history vault.
+
+- 📂 **Source Code:** [smart-pwd](./smart-pwd)
+- 🌐 **Live Demo:** [Click Here](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/smart-pwd)
+
+**Technologies Used:**  
+HTML • CSS • JavaScript • Web Crypto API
+
+---
+
 ## 🧪 Practice & Learning Folders
 These folders contain exercises and experimental projects from the bootcamp:
 
-- 📂 `css-practice`
-- 📂 `css-practice2`
-- 📂 `JS-Practice`
-- 📂 `frontend-development2026`
+- 📂 `css-layout-exercises`
+- 📂 `css-auth-ui`
+- 📂 `js-logic-lab`
+- 📂 `frontend-learning-hub`
 
 ---
 
 ## 🧠 Skills & Concepts Covered
 - Semantic HTML5  
-- Modern CSS (Flexbox, Grid, Responsive Design)  
+- Modern CSS (Flexbox, Grid, CSS Variables, Responsive Design)  
 - TailwindCSS  
 - JavaScript (ES6+)  
 - DOM Manipulation & Event Handling  
 - Local Storage & State Management  
-- API Integration (Fetch)  
+- API Integration (Fetch, REST APIs)  
+- Web Crypto API (cryptographic generation)  
+- Chart.js (data visualization)  
 - Responsive UI Design  
 
 ---
