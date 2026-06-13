@@ -88,11 +88,8 @@ quiz-app/
 
 ## 🖌 Customization
 
-- ✏️ Add or edit questions inside `index.html`.
-- 🧠 Update the correct answers array in `app.js`:
-   ```javascript
-   const correctAnswers = ['D', 'B', 'C', 'B', 'D'];
-   ```
+- ✏️ Add or edit questions inside `app.js`.
+- 🧠 Each question object has a `correct` property with the index of the correct answer (0-based).
 - 🎨 Modify styles and colors inside `style.css`.
 
 ---

@@ -14,29 +14,28 @@ A lightweight, vanilla JS frontend learning platform — hands-on demos, interac
 * **Knowledge Hub:** Industry insights, tech radar and structured learning roadmaps.
 * **Interactive Toolset:**
     * **Salary Calculator:** Role-based estimates based on location and experience.
-    * **Framework Quiz:** Interactive assessment with instant scoring and explanations.
-    * **To-Do List:** Task manager utilizing `localStorage` for data persistence.
+    * **Framework Quiz:** Quick JavaScript knowledge assessment.
+    * **To-Do List:** Simple task manager for managing goals.
 * **Showcase & Community:** Project gallery, mentor profiles and user testimonials.
-* **Communication:** Accessible contact form and social integration.
+* **Communication:** Contact form and social integration.
 
 ---
 
 ## 🧰 Technologies
 
 * **HTML5:** Semantic markup for SEO and accessibility.
-* **Vanilla JavaScript (ES6+):** Modular architecture using modules and `async/await`.
+* **Vanilla JavaScript (ES6+):** Core logic and DOM manipulation.
 * **CSS3 & Tailwind CSS:** Modern styling and layout management.
 * **FontAwesome:** Vector iconography.
-* **Vite:** (Optional) Lightning-fast build tool for local development.
 
 ### 📁 Project Structure
 ```text
-codecraft-frontend/
-├── css/            # Tailwind and custom stylesheets
-├── images/         # Optimized assets and brand graphics
-├── js/             # Modular JavaScript logic
+Frontend-Development2026/
+├── css/            # Custom stylesheets
+├── images/         # Assets and brand graphics
+├── js/             # JavaScript logic
 ├── index.html      # Main entry point
-└── README.md       # Project documentation
+└── Readme.md       # Project documentation
 
 ```
 
@@ -46,24 +45,17 @@ codecraft-frontend/
 
 1. **Clone the Repository**
 ```bash
-git clone [https://github.com/your-username/codecraft-frontend.git](https://github.com/your-username/codecraft-frontend.git)
-
+git clone https://github.com/gemachistesfaye/Summer-Bootcamp-Projects.git
 ```
 
-
-2. **Install Dependencies** (Optional, for Vite/dev tools)
+2. **Navigate to the folder**
 ```bash
-cd codecraft-frontend
-npm install
-
+cd Summer-Bootcamp-Projects/Frontend-Development2026
 ```
-
 
 3. **Run Locally**
 ```bash
-npm run dev   # Start Vite dev server
-# OR: Open index.html using "Live Server" in VS Code
-
+# Open index.html in your browser or use "Live Server" in VS Code
 ```
 
 
@@ -74,8 +66,8 @@ npm run dev   # Start Vite dev server
 
 * **Roadmaps:** Click on topics to expand suggested resources and learning paths.
 * **Salary Calculator:** Input your details to see a real-time salary estimation.
-* **Framework Quiz:** Test your skills and receive a detailed score breakdown.
-* **To-Do List:** Manage your goals; data persists even after refreshing the page.
+* **Framework Quiz:** Test your skills with a quick JavaScript assessment.
+* **To-Do List:** Manage your goals.
 * **Contact Form:** Replace the action endpoint with your preferred service (e.g., Formspree).
 
 ---
@@ -95,7 +87,7 @@ Please report bugs or suggest new features via **GitHub Issues**.
 
 ## ✉️ Contact Me
 
- <a href="https://github.com/urjiiko1">
+ <a href="https://github.com/gemachistesfaye">
     <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/gemachis-tesfaye-137196318">

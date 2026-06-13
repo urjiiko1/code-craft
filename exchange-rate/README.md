@@ -2,12 +2,11 @@
 
 A simple, **live** exchange rate calculator that:  
 - 🌍 Lets you pick **two currencies**  
-- 🔄 Enter an amount in **either side** (bi-directional)  
 - 📊 Shows **current rate** and **converted value**  
 - 🔃 Supports **swapping currencies**  
-- ⚡ Caches recent rates for faster loads  
+- ⌛ Debounced input for efficient API calls  
 
-💡 Rates come from: `https://api.exchangerate-api.com/v4/latest/{BASE}` (free endpoint)
+💡 Rates come from: `https://open.er-api.com/v6/latest/{BASE}` (free endpoint)
 
 ---
 
@@ -46,8 +45,7 @@ A simple, **live** exchange rate calculator that:
 ---
 
 ## 📝 Notes
-- ⏱ **Caching:** Rates for a base currency are cached for 10 minutes to reduce API calls.  
-- ⌛ **Debounce:** Typing waits ~250ms before triggering conversion.  
+- ⌛ **Debounce:** Typing waits ~400ms before triggering conversion.  
 - 🚫 **Error Handling:** If API fails, an error message will appear.  
 
 ---
@@ -64,4 +62,4 @@ A simple, **live** exchange rate calculator that:
 ## 💡 Author
 
 Created with ❤️  **[Gemachis]**
-[GitHub Profile](https://github.com/urjiiko1)
+[GitHub Profile](https://github.com/gemachistesfaye)

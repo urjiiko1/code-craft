@@ -61,4 +61,4 @@ css-practice/
 ---
  
 If you like this project, consider giving it a **star** on GitHub. ⭐   
- © 2026 — Built with ❤️ and Modern CSS
+ © 2025 — Built with ❤️ and Modern CSS

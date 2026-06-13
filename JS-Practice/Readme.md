@@ -26,7 +26,7 @@
 | **🌐 HTML5** | Modern semantic structure |
 | **🎨 Tailwind CSS** | Utility-first styling & Dark Mode |
 | **💛 JavaScript (ES6+)** | Core logical engine |
-| **✨ Lucide Icons** | SVG-based iconography |
+| **✨ Inline SVGs** | Lightweight iconography |
 
 ---
 
@@ -36,11 +36,11 @@
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/gemachistesfaye/Frontend-Showcase/tree/main/Summer-Bootcamp-Projects/JS-Practice](https://github.com/gemachistesfaye/Frontend-Showcase/tree/main/Summer-Bootcamp-Projects/JS-Practice)
+    git clone https://github.com/gemachistesfaye/Summer-Bootcamp-Projects.git
     ```
 2. **Navigate to the folder:**
     ```bash
-    cd JS-Practice
+    cd Summer-Bootcamp-Projects/JS-Practice
     ```
 3. **Launch the app:**
     Simply open `index.html` in your browser. (Note: Ensure `style.css` and `script.js` are in the same directory). 🚀

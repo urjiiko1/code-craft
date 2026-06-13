@@ -78,7 +78,7 @@ memory-cards/
 ├── index.html      # Core structure & UI
 ├── style.css       # Theming and layout (Custom Variables)
 ├── script.js       # App logic and state management
-└── README.md       # Project documentation
+└── readme.md       # Project documentation
 ```
 
 ---

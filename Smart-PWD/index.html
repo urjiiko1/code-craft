@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Smart PWD </title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2285%22>🔐</text></svg>">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="gradient-bg"></div>
+
+    <header class="mobile-header">
+      <div class="logo" style="margin-bottom: 0">
+        <i data-lucide="lock"></i> SMART PWD
+      </div>
+      <button class="menu-toggle" id="menuToggle">
+        <i data-lucide="menu"></i>
+      </button>
+    </header>
+
+    <div class="app-container">
+      <aside class="sidebar" id="sidebar">
+        <div class="logo"><i data-lucide="lock"></i> SMART PWD</div>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <button class="nav-btn active" data-page="home">
+              <i data-lucide="home"></i> <span>Home</span>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-btn" data-page="generator">
+              <i data-lucide="shield"></i> <span>Hard</span>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-btn" data-page="easy">
+              <i data-lucide="zap"></i> <span>Easy</span>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-btn" data-page="tips">
+              <i data-lucide="lightbulb"></i> <span>Tips</span>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-btn" data-page="history">
+              <i data-lucide="history"></i> <span>History</span>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-btn" data-page="about">
+              <i data-lucide="info"></i> <span>About</span>
+            </button>
+          </li>
+        </ul>
+        <div class="theme-toggle-wrapper">
+          <button id="themeToggleBtn" class="nav-btn" style="opacity: 1">
+            <i data-lucide="sun" id="themeIcon"></i> <span>Appearance</span>
+          </button>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <div class="scroll-area">
+          <section id="home" class="page active">
+            <div class="card hero-card">
+              <h1 class="hero-title">
+                Master Your <br /><span class="primary-gradient-text"
+                  >Digital Keys</span
+                >
+              </h1>
+              <p class="hero-desc">
+                High-entropy cryptographic generation with locally stored
+                history. <b>Zero data sharing, total security.</b>
+              </p>
+              <div class="hero-action-group">
+                <button
+                  class="primary-btn wide-btn"
+                  onclick="switchPage('generator')"
+                >
+                  Generate Secure
+                </button>
+                <button
+                  class="primary-btn wide-btn orange-bg"
+                  onclick="switchPage('easy')"
+                >
+                  Easy Mode
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <section id="generator" class="page">
+            <div class="card">
+              <h2 style="text-align: center; font-size: 35px">
+                Ran<span class="primary-gradient-text">dom Genera</span>tor
+              </h2>
+              <p class="section-subtitle">
+                Pure cryptographic randomness via <b>Web Crypto API</b>.
+              </p>
+
+              <div class="control-group">
+                <div class="label-row">
+                  <span class="label-text">LENGTH</span>
+
+                  <div class="rainbow-line-box" id="glowBox">
+                    <span id="lengthValue" class="value-highlight"
+                      >16 Characters</span
+                    >
+                  </div>
+                </div>
+                <input type="range" id="length" min="8" max="64" value="16" />
+              </div>
+
+              <div class="checkbox-grid">
+                <label class="check-card"
+                  ><input type="checkbox" id="upper" checked /> UPPERCASE</label
+                >
+                <label class="check-card"
+                  ><input type="checkbox" id="lower" checked /> lowercase</label
+                >
+                <label class="check-card"
+                  ><input type="checkbox" id="numberHard" checked />
+                  1234...</label
+                >
+                <label class="check-card"
+                  ><input type="checkbox" id="symbolHard" checked />
+                  #@!%...</label
+                >
+              </div>
+
+              <div class="button-grid-horizontal">
+                <button id="generateBtn" class="primary-btn">Generate</button>
+                <button id="mnemonicBtn" class="outline-btn-orange">
+                  Mnemonic
+                </button>
+              </div>
+
+              <div class="result-container">
+                <span class="result-display" id="passwordDisplay"
+                  >********</span
+                >
+                <div id="strengthText" class="strength-label">STRENGTH: -</div>
+                <div class="strength-shell"><div id="strengthBar"></div></div>
+                <button
+                  class="primary-btn copy-main-btn"
+                  id="copyBtn"
+                  style="font-size: 11px"
+                >
+                  COPY TO CLIPBOARD
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <section id="easy" class="page">
+            <div class="card">
+              <h2 style="text-align: center; font-size: 35px">
+                Mem<span class="primary-gradient-text">orable Buil</span>der
+              </h2>
+              <p class="section-subtitle">
+                Fill minimum 4 fields. <b>Number</b> and <b>Symbol</b> are
+                mandatory.
+              </p>
+
+              <div class="easy-grid" id="easyGrid">
+                <div class="input-wrap icon-blue">
+                  <label>👤 <span>First Name</span></label>
+                  <input
+                    type="text"
+                    class="easy-in"
+                    data-key="name"
+                    placeholder="Alex"
+                  />
+                </div>
+
+                <div class="input-wrap icon-green">
+                  <label>🏙️ <span>Favorite City</span></label>
+                  <input
+                    type="text"
+                    class="easy-in"
+                    data-key="city"
+                    placeholder="Tokyo"
+                  />
+                </div>
+
+                <div class="input-wrap icon-orange">
+                  <label>🔢 <span>Lucky Number *</span></label>
+                  <input
+                    type="number"
+                    class="easy-in mandatory"
+                    data-key="num"
+                    placeholder="7"
+                  />
+                </div>
+
+                <div class="input-wrap icon-red">
+                  <label>✨ <span>Special Symbol *</span></label>
+                  <input
+                    type="text"
+                    class="easy-in mandatory"
+                    data-key="sym"
+                    placeholder="@"
+                    maxlength="2"
+                  />
+                </div>
+
+                <div class="input-wrap icon-purple">
+                  <label>🐾 <span>Favorite Animal</span></label>
+                  <input
+                    type="text"
+                    class="easy-in"
+                    data-key="animal"
+                    placeholder="Wolf"
+                  />
+                </div>
+
+                <div class="input-wrap icon-pink">
+                  <label>📅 <span>Birth Year</span></label>
+                  <input
+                    type="number"
+                    class="easy-in"
+                    data-key="year"
+                    placeholder="1995"
+                  />
+                </div>
+
+                <div class="input-wrap icon-cyan">
+                  <label>🎮 <span>Hobby</span></label>
+                  <input
+                    type="text"
+                    class="easy-in"
+                    data-key="hobby"
+                    placeholder="Coding"
+                  />
+                </div>
+
+                <div class="input-wrap icon-teal">
+                  <label>🎨 <span>Color</span></label>
+                  <input
+                    type="text"
+                    class="easy-in"
+                    data-key="color"
+                    placeholder="Violet"
+                  />
+                </div>
+
+                <div class="input-wrap icon-indigo">
+                  <label>🏫 <span>First School</span></label>
+                  <input
+                    type="text"
+                    class="easy-in"
+                    data-key="school"
+                    placeholder="Highlands"
+                  />
+                </div>
+
+                <div class="input-wrap icon-yellow">
+                  <label>🍕 <span>Favorite Food</span></label>
+                  <input
+                    type="text"
+                    class="easy-in"
+                    data-key="food"
+                    placeholder="Pizza"
+                  />
+                </div>
+              </div>
+
+              <button id="buildEasyBtn" class="primary-btn orange-bg" disabled>
+                Build Memorable PWD
+              </button>
+
+              <div class="result-container">
+                <span
+                  class="result-display"
+                  id="easyDisplay"
+                  style="font-size: 22px"
+                  >Waiting for input...</span
+                >
+                <button
+                  class="primary-btn copy-main-btn"
+                  id="copyEasyBtn"
+                  style="font-size: 11px"
+                >
+                  COPY PASSWORD
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <section id="tips" class="page">
+            <div class="card">
+              <h2 style="text-align: center; font-size: 35px">
+                Sec<span class="primary-gradient-text">urity Standa</span>rds
+              </h2>
+              <div class="tips-grid">
+                <div class="tip-card tip-p">
+                  <h4>Length Over Variety</h4>
+                  <p>
+                    A 16-character password of just letters is often stronger
+                    than an 8-character complex one.
+                  </p>
+                </div>
+                <div class="tip-card tip-a">
+                  <h4>No Repetition</h4>
+                  <p>
+                    Site leaks are common. If you use the same password
+                    everywhere, one leak ruins everything.
+                  </p>
+                </div>
+                <div class="tip-card tip-g">
+                  <h4>Use Mnemonics</h4>
+                  <p>
+                    A string like "BigRedCat@2022" is easy to remember but
+                    incredibly hard for bots to guess.
+                  </p>
+                </div>
+                <div class="tip-card tip-r">
+                  <h4>MFA is Essential</h4>
+                  <p>
+                    Always enable Multi-Factor Authentication. It's your second
+                    line of defense.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="history" class="page">
+            <div class="card">
+              <div class="history-top">
+                <h2 style="text-align: center; font-size: 35px">
+                  Rec<span class="primary-gradient-text">ent Va</span>ult
+                </h2>
+                <div class="history-actions-header">
+                  <button id="exportBtn" class="primary-btn small-btn">
+                    DOWNLOAD (.TXT)
+                  </button>
+                  <button id="clearHistory" class="danger-link-btn">
+                    <i data-lucide="trash-2" size="18"></i> CLEAR ALL
+                  </button>
+                </div>
+              </div>
+              <ul id="historyList" class="history-list"></ul>
+            </div>
+          </section>
+
+          <section id="about" class="page">
+            <div class="card about-card-custom">
+              <div class="about-icon-v2" style="text-align: center;">💎</div>
+
+              <h2
+                class="about-title-v2"
+                style="text-align: center; font-size: 35px"
+              >
+                Sma<span class="primary-gradient-text">rt Password Genera</span
+                >tor
+              </h2>
+              <div class="about-container-v2">
+                <p class="about-description">
+                  Designed for
+                  <span class="emphasis">high-security environments</span> where
+                  privacy is non-negotiable. Our engine utilizes the
+                  <span class="crypto-badge">Web Crypto API</span> to ensure
+                  true randomness without internet reliance.
+                </p>
+
+                <div class="contact-label-v2" style="text-align: center;">
+                  <span class="pulse-dot" style="text-align: center;"></span> CONTACT DEVELOPER
+                </div>
+              </div>
+
+              <div class="social-links-v2">
+                <a
+                  href="mailto:gemachistesfaye36@gmail.com"
+                  class="social-btn-v2"
+                >
+                  <i data-lucide="mail"></i>
+                </a>
+
+                <a
+                  href="https://github.com/urjiiko1"
+                  class="social-btn-v2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i data-lucide="github"></i>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/gemachis-tesfaye-137196318"
+                  class="social-btn-v2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i data-lucide="linkedin"></i>
+                </a>
+
+                <a
+                  href="https://urjiiko1.github.io/Portfolio/"
+                  class="social-btn-v2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i data-lucide="briefcase"></i>
+                </a>
+              </div>
+
+   <div class="pill-container">
+        <p class="dev-name-v2">Developed by Gemachis T.</p>
+    </div>
+</div>
+            </div>
+          </section>
+
+           <footer class="app-footer">
+          &copy; <span id="year"></span> Smart Password Generator Pro |
+          <span class="footer-highlight">Secure & Local</span>
+        </footer>
+        </div>
+
+       
+      </main>
+    </div>
+
+    <div id="toast" class="copy-toast">Copied to Clipboard!</div>
+    <script src="./script.js"></script>
+  </body>
+</html>
