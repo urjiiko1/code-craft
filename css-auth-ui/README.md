@@ -6,7 +6,9 @@ Welcome to this Web login Pages project! 🎉 This collection features beautiful
 ---
 
 
-**▶️ Live Demo:** **[View Project Live Here](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/css-auth-ui/)** 🌐
+## 🚀 Live Demo
+
+👉 **[View Live Demo](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/css-auth-ui/)**
 
 ---
 

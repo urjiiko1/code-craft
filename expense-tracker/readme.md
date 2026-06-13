@@ -6,7 +6,7 @@ A professional-grade **Expense Tracker** application designed for clarity, ease 
 
 ## 🚀 Live Demo
 
-# [Click to try the live app](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/expense-tracker)
+👉 **[View Live Demo](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/expense-tracker)**
 
 ---
 

@@ -6,7 +6,9 @@ A premium, high-entropy cryptographic password generator built with a privacy-fi
 
 
 
-##  🔗[Live Demo Link](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/smart-pwd/) 
+## 🚀 Live Demo
+
+👉 **[View Live Demo](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/smart-pwd/)**
 
 ---
 

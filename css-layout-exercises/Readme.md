@@ -4,7 +4,9 @@
 
 ---
 
-## 🌐 [**View Live Demo**](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/css-layout-exercises/) 
+## 🚀 Live Demo
+
+👉 **[View Live Demo](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/css-layout-exercises/)**
 
 ---
 

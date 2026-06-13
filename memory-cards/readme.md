@@ -4,8 +4,9 @@
 
 ---
 
-## 🔗 Live Demo
-**[View Live Demo Here](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects//memory-cards/)** 
+## 🚀 Live Demo
+
+👉 **[View Live Demo](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/memory-cards/)** 
 
 ---
 

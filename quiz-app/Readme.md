@@ -7,7 +7,7 @@ It displays multiple-choice questions, calculates the score and highlights corre
 
 ## 🚀 Live Demo
 
-👉 **[Click here to try the live quiz](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/quiz-app)**
+👉 **[View Live Demo](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/quiz-app)**
 
 ---
 

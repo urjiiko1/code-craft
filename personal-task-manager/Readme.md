@@ -9,7 +9,7 @@ It simulates a lightweight personal operating system that helps users manage tas
 
 ## 🚀 Live Demo
 
-👉 **[View Live Application](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/personal-task-manager/)**
+👉 **[View Live Demo](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/personal-task-manager/)**
 
 ---
 
