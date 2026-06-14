@@ -9,6 +9,7 @@
             --white: #ffffff;
             --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
             --transition: cubic-bezier(0.4, 0, 0.2, 1);
+            --overlay: rgba(15, 23, 42, 0.6);
         }
 
         [data-theme="dark"] {
@@ -18,6 +19,7 @@
             --text-muted: #94a3b8;
             --border: #334155;
             --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+            --overlay: rgba(0, 0, 0, 0.6);
         }
 
         * {
@@ -159,7 +161,7 @@
         .btn-primary:hover { background-color: var(--primary-dark); transform: translateY(-1px); }
         .btn-outline { background-color: transparent; border: 1px solid var(--border); color: var(--text-muted); }
         .btn-outline:hover { background-color: var(--border); color: var(--text-main); }
-        .btn-danger:hover { background-color: #fee2e2; color: #dc2626; border-color: #fecaca; }
+        .btn-danger:hover { background-color: var(--border); color: var(--text-main); }
 
         /* Card Container */
         .cards-wrapper {
@@ -229,7 +231,7 @@
             top: 1.25rem; right: 1.5rem;
             font-size: 0.65rem;
             background: var(--primary);
-            color: white;
+            color: var(--white);
             padding: 2px 8px;
             border-radius: 4px;
             font-weight: 700;
@@ -276,7 +278,7 @@
             position: fixed;
             top: 0; left: 0;
             width: 100%; height: 100%;
-            background: rgba(15, 23, 42, 0.6);
+            background: var(--overlay);
             backdrop-filter: blur(4px);
             display: none; align-items: center; justify-content: center;
             z-index: 100; padding: 1rem;
@@ -325,4 +327,17 @@
             .btn-group { gap: 0.5rem; }
             .btn { padding: 0.4rem 0.8rem; font-size: 0.75rem; }
             .controls-container { gap: 0.75rem; }
+        }
+
+        :focus-visible {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
         }

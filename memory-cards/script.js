@@ -20,6 +20,12 @@
   const questionInput = document.getElementById("input-question");
   const answerInput = document.getElementById("input-answer");
 
+  function escapeHtml(str) {
+    const div = document.createElement("div");
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  }
+
   let currentIndex = 0;
   let editIndex = null;
   let filteredCards = [];
@@ -81,20 +87,20 @@
         <div class="card-inner">
             <div class="card-face card-face-front">
                 <span class="label">Question</span>
-                ${data.category ? `<span class="category-tag">${data.category}</span>` : ""}
-                <p>${data.question}</p>
+                ${data.category ? `<span class="category-tag">${escapeHtml(data.category)}</span>` : ""}
+                <p>${escapeHtml(data.question)}</p>
                 <div class="card-actions">
-                    <button class="action-btn edit" data-index="${originalIndex}">
+                    <button class="action-btn edit" data-index="${originalIndex}" aria-label="Edit card">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>
                     </button>
-                    <button class="action-btn delete" data-index="${originalIndex}">
+                    <button class="action-btn delete" data-index="${originalIndex}" aria-label="Delete card">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
                     </button>
                 </div>
             </div>
             <div class="card-face card-face-back">
                 <span class="label">Answer</span>
-                <p>${data.answer}</p>
+                <p>${escapeHtml(data.answer)}</p>
             </div>
         </div>
       `;
@@ -117,10 +123,11 @@
       cardsContainer.appendChild(card);
     });
 
-    counterEl.innerText = `${currentIndex + 1} / ${filteredCards.length}`;
+    counterEl.textContent = `${currentIndex + 1} / ${filteredCards.length}`;
     const progress =
       ((currentIndex + 1) / filteredCards.length) * 100;
     progressBar.style.width = `${progress}%`;
+    progressBar.setAttribute("aria-valuenow", Math.round(progress));
     prevBtn.disabled = currentIndex === 0;
     nextBtn.disabled = currentIndex === filteredCards.length - 1;
   }
@@ -134,7 +141,7 @@
 
   function openEditModal(index) {
     editIndex = index;
-    modalTitle.innerText = "Edit Card";
+    modalTitle.textContent = "Edit Card";
     categoryInput.value = cardsData[index].category || "";
     questionInput.value = cardsData[index].question;
     answerInput.value = cardsData[index].answer;
@@ -201,7 +208,15 @@
       try {
         const imported = JSON.parse(e.target.result);
         if (Array.isArray(imported)) {
-          cardsData = [...cardsData, ...imported];
+          const valid = imported.filter(
+            (item) =>
+              item &&
+              typeof item.question === "string" &&
+              typeof item.answer === "string" &&
+              item.question.length <= 500 &&
+              item.answer.length <= 1000
+          );
+          cardsData = [...cardsData, ...valid];
           saveAndRefresh();
         }
       } catch (err) {
@@ -209,9 +224,14 @@
       }
     };
     reader.readAsText(file);
+    importInput.value = "";
   };
 
   document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && modalCard.classList.contains("open")) {
+      modalCard.classList.remove("open");
+      return;
+    }
     if (
       modalCard.classList.contains("open") ||
       document.activeElement === searchInput
@@ -228,7 +248,7 @@
 
   showAddBtn.onclick = () => {
     editIndex = null;
-    modalTitle.innerText = "Create New Card";
+    modalTitle.textContent = "Create New Card";
     categoryInput.value = "";
     questionInput.value = "";
     answerInput.value = "";
@@ -237,6 +257,10 @@
   };
 
   hideModalBtn.onclick = () => modalCard.classList.remove("open");
+
+  modalCard.onclick = (e) => {
+    if (e.target === modalCard) modalCard.classList.remove("open");
+  };
 
   saveCardBtn.onclick = () => {
     const c = categoryInput.value.trim();

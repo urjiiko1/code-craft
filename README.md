@@ -115,7 +115,7 @@ These folders contain exercises and experimental projects from the bootcamp:
 ## 🎯 Purpose of This Repository
 - Document learning progress  
 - Showcase frontend development skills  
-- Build a strong GitHub portfo 
+- Build a strong GitHub por 
 
 ---
 

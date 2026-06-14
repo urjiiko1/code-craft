@@ -43,6 +43,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const targetIndex = sectionOrder.indexOf(targetId);
     if (targetIndex === -1) return;
 
+    if (ageTimer) {
+      clearInterval(ageTimer);
+      ageTimer = null;
+    }
+
     const isForward = targetIndex > currentIndex;
 
     sections.forEach(sec => {
@@ -82,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   /* ================== BUTTON NAVIGATION ================== */
-  document.querySelectorAll("[data-target]").forEach(el => {
+  document.querySelectorAll("[data-target]:not(.nav-link)").forEach(el => {
     el.addEventListener("click", () => {
       const targetId = el.getAttribute("data-target");
       showSection(targetId);
@@ -107,7 +112,7 @@ document.querySelectorAll(".faq-question").forEach(q => {
       const a = item.nextElementSibling;
       a.style.maxHeight = "0px";
       a.style.opacity = "0";
-      a.style.padding = "0 22px";
+      a.style.padding = "";
     });
 
     // Open selected
@@ -116,7 +121,6 @@ document.querySelectorAll(".faq-question").forEach(q => {
 
       // 👇 wait for layout update (THIS FIXES CUT TEXT)
       setTimeout(() => {
-        answer.style.padding = "15px 22px";
         answer.style.opacity = "1";
         answer.style.maxHeight = answer.scrollHeight + 40 + "px";
       }, 10);
@@ -195,15 +199,29 @@ document.querySelectorAll(".faq-question").forEach(q => {
       return;
     }
 
-    errorDisplay.style.display = "none";
     const dob = new Date(dobValue);
+    const now = new Date();
+
+    if (dob > now) {
+      errorDisplay.textContent = "Date of birth cannot be in the future.";
+      errorDisplay.style.display = "block";
+      return;
+    }
+
+    if (isNaN(dob.getTime())) {
+      errorDisplay.textContent = "Please enter a valid date.";
+      errorDisplay.style.display = "block";
+      return;
+    }
+
+    errorDisplay.style.display = "none";
 
     if (ageTimer) clearInterval(ageTimer);
 
-    let age = new Date().getFullYear() - dob.getFullYear();
+    let age = now.getFullYear() - dob.getFullYear();
     if (
-      new Date().getMonth() < dob.getMonth() ||
-      (new Date().getMonth() === dob.getMonth() && new Date().getDate() < dob.getDate())
+      now.getMonth() < dob.getMonth() ||
+      (now.getMonth() === dob.getMonth() && now.getDate() < dob.getDate())
     ) {
       age--;
     }
@@ -216,7 +234,7 @@ document.querySelectorAll(".faq-question").forEach(q => {
   });
 
   /* ================== REVEAL ANIMATION ================== */
-  const reveals = document.querySelectorAll(".reveal");
+  const reveals = document.querySelectorAll(".reveal, .reveal-left, .reveal-right");
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) entry.target.classList.add("active");

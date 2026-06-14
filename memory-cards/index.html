@@ -15,19 +15,19 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9V5.2A2.2 2.2 0 0 1 4.2 3h15.6A2.2 2.2 0 0 1 22 5.2V15a2 2 0 0 1-2 2h-4.8L12 21l-3.2-4H4a2 2 0 0 1-2-2V9Z"/><path d="M10 9H8"/><path d="M16 9h-2"/><path d="M10 13H8"/><path d="M14 13h-2"/></svg>
             Memory Pro
         </h1>
-        <button id="theme-toggle" class="theme-toggle" title="Toggle Dark Mode">
+        <button id="theme-toggle" class="theme-toggle" title="Toggle Dark Mode" aria-label="Toggle dark mode">
             <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
         </button>
     </header>
 
     <div class="progress-container">
-        <div id="progress-bar"></div>
+        <div id="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Card progress"></div>
     </div>
 
     <div class="controls-container">
         <div class="search-container">
             <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-            <input type="text" id="search-input" class="search-input" placeholder="Search by text or category...">
+            <input type="text" id="search-input" class="search-input" placeholder="Search by text or category..." aria-label="Search cards">
         </div>
     </div>
 
@@ -53,18 +53,18 @@
     <div id="cards-container" class="cards-wrapper"></div>
 
     <div class="nav-controls">
-        <button id="btn-prev" class="nav-btn">
+        <button id="btn-prev" class="nav-btn" aria-label="Previous card">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
         </button>
-        <span id="counter">0 / 0</span>
-        <button id="btn-next" class="nav-btn">
+        <span id="counter" aria-live="polite">0 / 0</span>
+        <button id="btn-next" class="nav-btn" aria-label="Next card">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
         </button>
     </div>
 
-    <div id="modal-card" class="modal-overlay">
+    <div id="modal-card" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
         <div class="modal">
-            <button id="btn-hide-modal" class="close-modal">
+            <button id="btn-hide-modal" class="close-modal" aria-label="Close dialog">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
             </button>
             <h2 id="modal-title">Create New Card</h2>
