@@ -10,6 +10,14 @@ A cryptographic password generator with Web Crypto API, memorable builder mode, 
 
 ---
 
+## 📸 Screenshots
+
+| Home | Generator |
+|------|-----------|
+| ![Home](screenshot-home.png) | ![Generator](screenshot-generator.png) |
+
+---
+
 ## ✨ Features
 
 - High-entropy generation via Web Crypto API

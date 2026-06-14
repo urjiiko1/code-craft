@@ -10,6 +10,12 @@
   const searchInput = document.getElementById("search");
   let myChart;
 
+  function escapeHtml(str) {
+    const div = document.createElement("div");
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  }
+
   const categoryIcons = {
     Food: "fa-utensils",
     Shopping: "fa-shopping-bag",
@@ -106,7 +112,7 @@
           <div class="item-info">
               <div class="item-icon"><i class="fas ${icon}"></i></div>
               <div class="item-details">
-                  <b>${t.text}</b>
+                  <b>${escapeHtml(t.text)}</b>
                   <span>${t.category} • ${t.date}</span>
               </div>
           </div>

@@ -10,6 +10,14 @@ An interactive JavaScript playground for analyzing type coercion, branching logi
 
 ---
 
+## 📸 Screenshots
+
+| Top | Modules |
+|-----|---------|
+| ![Top](screenshot-top.png) | ![Modules](screenshot-modules.png) |
+
+---
+
 ## ✨ Features
 
 - Type Coercion Engine — visualize implicit/explicit conversions

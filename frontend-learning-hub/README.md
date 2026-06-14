@@ -10,6 +10,14 @@ A frontend learning platform with interactive tools, salary calculator, framewor
 
 ---
 
+## 📸 Screenshots
+
+| Hero | Tools |
+|------|-------|
+| ![Hero](screenshot-hero.png) | ![Tools](screenshot-tools.png) |
+
+---
+
 ## ✨ Features
 
 - Modern landing page with hero section

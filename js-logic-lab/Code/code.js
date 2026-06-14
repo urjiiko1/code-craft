@@ -41,14 +41,14 @@ console.log("         ")
 
 function vote(age)     {
 
-    if (age>=18) {console.log("u are elegible for vote🎉")}
+    if (age>=18) {console.log("u are eligible for vote🎉")}
     else if (age<18 && age>=0) {console.log ("u are not eligible for vote🚫")}
     else {console.log("invalid input⚡")}
 }
 
-vote(20)    // print => u are elegible for vote🎉
+vote(20)    // print => u are eligible for vote🎉
 vote(10)   // print => u are not eligible for vote🚫
-vote(18)    // print=>  u are elegible for vote🎉
+vote(18)    // print=>  u are eligible for vote🎉
 vote(-4)   // print=> invalid input⚡
 
 console.log("         ")
@@ -90,7 +90,7 @@ function factorial(a) {
 }
 
 factorial(1)  // print=> factorial of 1 is 1 ✅
-factorial(0)   // print => factorial of 1 is 1 ✅
+factorial(0)   // print => factorial of 0 is 1 ✅
 factorial(-5)  // print=> factorial is not for negative number👎
 factorial(8)  //print => factorial of 8 is 40320 ✅
 

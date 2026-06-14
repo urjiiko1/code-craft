@@ -205,9 +205,13 @@ document.addEventListener("DOMContentLoaded", () => {
         "Music",
         "Dream",
       ];
+      const shuffled = [...words];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(crypto.getRandomValues(new Uint32Array(1))[0] / (0xFFFFFFFF + 1) * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
       const res =
-        words
-          .sort(() => 0.5 - Math.random())
+        shuffled
           .slice(0, 4)
           .join("-") + Math.floor(Math.random() * 99);
       const display = document.getElementById("passwordDisplay");

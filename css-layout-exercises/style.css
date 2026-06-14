@@ -222,51 +222,6 @@
             color: #2c3e50;
         }
 
- 
-        .pricing-section {
-            padding: 80px 20px;
-            background: #eef2f3;
-        }
-
-        .pricing-table-container {
-            max-width: 1100px;
-            margin: 40px auto 0;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-            align-items: center;
-        }
-
-        .plan {
-            background: #fff;
-            padding: 40px 30px;
-            border-radius: 10px;
-            text-align: center;
-            position: relative;
-            border: 1px solid #ddd;
-            transition: 0.3s;
-        }
-
-        .plan.middle-plan {
-            border: 2px solid #3498db;
-            transform: scale(1.05);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-            z-index: 1;
-        }
-
-        .badge {
-            position: absolute;
-            top: -15px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #3498db;
-            color: #fff;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: bold;
-        }
-
         .price {
             font-size: 2.5rem;
             font-weight: bold;

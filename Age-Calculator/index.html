@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+
+/>
+<link rel="icon" href="data:image/svg+xml,
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'>
+    <text y='14' font-size='16'>🎂</text>
+  </svg>">
+
+
+</head>
+<body>
+  <div class="main-wrapper">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header__logo">
+        <img src="./logo.png" alt="Age Calculator Logo" class="logo-placeholder">
+        
+      </div>
+      <nav class="header__nav" role="navigation" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#home" class="nav-link active" data-target="home-section">Home</a></li>
+          <li><a href="#calculator" class="nav-link" data-target="calculator-section">Calculator</a></li>
+          <li><a href="#features" class="nav-link" data-target="features-section">Features</a></li> 
+          <li><a href="#about" class="nav-link" data-target="about-section">About</a></li>
+          <li><a href="#faq" class="nav-link" data-target="faq-section">FAQ</a></li>
+          <li><a href="#contact" class="nav-link" data-target="contact-section">Contact</a></li>
+          
+        </ul>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="content-sections">
+
+      <!-- HOME -->
+      <section id="home-section" class="content-section active-section">
+        <div class="hero-section">
+          <h2 class="hero__title">Welcome to the Age Calculator!</h2>
+          <p class="hero__subtitle">Discover fascinating insights about your age and life's journey.</p>
+          <button class="btn btn--primary" data-target="calculator-section">Calculate Your Age Now!</button>
+        </div>
+      </section>
+
+      <!-- CALCULATOR -->
+      <section id="calculator-section" class="content-section">
+       <div class="calculator-card">
+  <h2>Age Calculator</h2>
+  <p class="calculator-card__subtitle">Enter your details</p>
+
+  <div class="input-group">
+    <label for="userName">Your Name</label>
+    <input type="text" id="userName" placeholder="Enter your name" />
+  </div>
+
+  <div class="input-group">
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" />
+  </div>
+
+  <button id="calculateBtn" class="btn btn--primary">Calculate Age</button>
+<div class="result-area">
+  <p id="greeting" class="dear-text"></p> <!-- NEW: Greeting -->
+  <p id="resultSummary" class="age-summary"></p>
+  <div id="detailedResult" class="result-area__details">
+    <p>Detailed Breakdown:</p>
+    <ul class="result-list" aria-live="polite">
+      <li><span id="years">0</span> Years</li>
+      <li><span id="months">0</span> Months</li>
+      <li><span id="days">0</span> Days</li>
+      <li><span id="hours">0</span> Hours</li>
+      <li><span id="minutes">0</span> Minutes</li>
+      <li><span id="seconds">0</span> Seconds</li>
+    </ul>
+  </div>
+</div>
+
+
+  <div id="errorDisplay"></div>
+</div>
+
+      </section>
+
+
+
+<!-- ================== FEATURES SECTION ================== -->
+<section id="features-section" class="content-section reveal">
+  <div class="features-card reveal">
+    <h2 class="reveal">Features</h2>
+
+    <ul class="features-list">
+      <li class="reveal-left">
+        <i class="fa-solid fa-clock"></i>
+        <span>Real-time age calculation</span>
+      </li>
+
+      <li class="reveal-right">
+        <i class="fa-solid fa-bullseye"></i>
+        <span>Accurate & precise results</span>
+      </li>
+
+      <li class="reveal-left">
+  <i class="fa-solid fa-wifi"></i> <!-- change to fa-wifi -->
+  <span>Works completely offline</span>
+</li>
+
+
+      <li class="reveal-right">
+        <i class="fa-solid fa-lock"></i>
+        <span>No data stored or tracked</span>
+      </li>
+
+      <li class="reveal-left">
+        <i class="fa-solid fa-palette"></i>
+        <span>Minimalistic & modern design</span>
+      </li>
+
+      <li class="reveal-right">
+        <i class="fa-solid fa-moon"></i>
+        <span>Dark / Light mode support</span>
+      </li>
+
+      <li class="reveal-left">
+        <i class="fa-solid fa-face-smile"></i>
+        <span>Clean and user-friendly interface</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+
+
+      
+    <!-- ABOUT -->
+<section id="about-section" class="content-section">
+  <div class="about-card">
+    <h2><span class="highlight-title">About Our</span> Age Calculator</h2>
+    
+    <p class="about-text fade-up">This Age Calculator determines your age in years, months, days, hours, minutes, and seconds!</p>
+    
+    <p class="about-text fade-up">Our mission is to make understanding your age fun and insightful. Plan birthdays, track milestones, or just satisfy curiosity!</p>
+    
+    <p class="about-text fade-up">It works offline, is easy to use, and provides accurate results in real-time, giving you a smooth and interactive experience.</p>
+  </div>
+</section>
+
+
+      <!-- FAQ -->
+   
+     <section id="faq-section" class="content-section">
+  <div class="faq-card reveal">
+    <h2>Frequently As<span class="highlight-title">ked Questions</span></h2>
+
+    <div class="faq-item reveal-left">
+      <div class="faq-question">Q: How accurate is this calculator?</div>
+      <div class="faq-answer">
+        Highly accurate estimate based on your date of birth and the current time.
+      </div>
+    </div>
+
+    <div class="faq-item reveal-right">
+      <div class="faq-question">Q: What if I enter a future date?</div>
+      <div class="faq-answer">
+        The calculator will show an error if a future date is entered.
+      </div>
+    </div>
+
+    <div class="faq-item reveal-left">
+      <div class="faq-question">Q: Why two different "days" calculations?</div>
+      <div class="faq-answer">
+        <ul>
+          <li>Summary shows days within the month.</li>
+          <li>Detailed breakdown shows total days lived.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="faq-item reveal-right">
+      <div class="faq-question">Q: Can I use this calculator offline?</div>
+      <div class="faq-answer">
+        Yes, it works completely offline once the page is loaded.
+      </div>
+    </div>
+
+    <div class="faq-item reveal-left">
+      <div class="faq-question">Q: Is my data stored anywhere?</div>
+      <div class="faq-answer">
+        No, your data is never stored or sent to any server.
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+      <!-- CONTACT INFO ONLY -->
+      <section id="contact-section" class="content-section">
+        <div class="contact-card">
+          <h2>Contact</h2>
+          <div class="contact-info">
+            <p>Email: <a href="mailto:gemachistesfaye36@gmail.com">gemachistesfaye36@gmail.com</a></p>
+            <p>Phone: <a href="tel:+251976601074">+251 976601074</a></p>
+            <p>Address: Haramaya, Ethiopia</p>
+          </div>
+
+          <div class="social-links">
+
+        <a class="social github" href="https://github.com/urjiiko1" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg">
+      </a>
+
+      <a class="social linkedin" href="https://www.linkedin.com/in/gemachis-tesfaye-137196318" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg">
+      </a>
+
+      <a class="social instagram" href="https://www.instagram.com/urjiiko1" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg">
+      </a>
+
+      <a class="social telegram" href="https://t.me/urjiiko1" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg">
+      </a>
+
+      
+
+      
+
+      
+    </div>
+        </div>
+      </section>
+
+      
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>&copy; 2025 Age Calculator. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # 🎓 Summer Bootcamp – Frontend Projects 💻
 
-A portfolio of **6 frontend projects** with **4 practice exercises** built during the  
+A portfolio of **7 frontend projects** with **4 practice exercises** built during the  
 **ISHUB AAU Summer Bootcamp 2025 – Frontend Development Track**.
 
 📍 **Institution:** Addis Ababa University (AAU) – ISHUB  
@@ -77,6 +77,17 @@ HTML • CSS • JavaScript • Web Crypto API
 
 ---
 
+### 7️⃣ Age Calculator
+A small utility to calculate a person's age from a date of birth. Provides precise age in years, months and days.
+
+- 📂 **Source Code:** [Age-Calculator](./Age-Calculator)
+- 🌐 **Live Demo:** [Click Here](https://gemachistesfaye.github.io/Summer-Bootcamp-Projects/Age-Calculator)
+
+**Technologies Used:**  
+HTML • CSS • JavaScript
+
+---
+
 ## 🧪 Practice & Learning Folders
 These folders contain exercises and experimental projects from the bootcamp:
 
@@ -104,7 +115,7 @@ These folders contain exercises and experimental projects from the bootcamp:
 ## 🎯 Purpose of This Repository
 - Document learning progress  
 - Showcase frontend development skills  
-- Build a strong GitHub portfolio  
+- Build a strong GitHub portfo 
 
 ---
 

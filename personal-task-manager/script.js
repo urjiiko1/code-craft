@@ -1,4 +1,10 @@
 (() => {
+  function escapeHtml(str) {
+    const div = document.createElement("div");
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  }
+
   const system = {
     currentPage: "dashboard",
     user: localStorage.getItem("zen_user") || "",
@@ -241,7 +247,7 @@
                   </button>
                   <div>
                       <span class="text-[8px] px-2 py-0.5 rounded-full font-black uppercase tracking-widest ${colors[t.category] || "bg-white/10"} mb-1 inline-block">${t.category}</span>
-                      <p class="font-bold text-sm truncate ${t.done ? "line-through opacity-30" : ""}">${t.text}</p>
+                      <p class="font-bold text-sm truncate ${t.done ? "line-through opacity-30" : ""}">${escapeHtml(t.text)}</p>
                   </div>
               </div>
               <button onclick="deleteTask(${t.id})" class="p-2 opacity-30 hover:opacity-100 hover:text-red-500 transition-all"><i data-lucide="trash-2" class="w-4 h-4"></i></button>
