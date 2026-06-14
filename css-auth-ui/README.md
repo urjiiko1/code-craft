@@ -12,9 +12,10 @@ An animated glassmorphism login system with Sign In, Sign Up and Forget Password
 
 ## 📸 Screenshots
 
-| Sign In Page | Sign Up Page | Forget Page |
-|------------|--------------|----------------|
-| ![Sign-in](https://github.com/gemachistesfaye/Summer-Bootcamp-Projects/blob/main/css-auth-ui/preview-sign-in.png) | ![Sign-up](https://github.com/gemachistesfaye/Summer-Bootcamp-Projects/blob/main/css-auth-ui/preview-sign-up.png) | ![Forget](https://github.com/gemachistesfaye/Summer-Bootcamp-Projects/blob/main/css-auth-ui/preview-forget.png) |
+| | |
+|---|---|
+| ![Sign In](screenshot-signin.png) | ![Sign Up](screenshot-signup.png) |
+| ![Mobile](screenshot-mobile.png) | |
 
 ---
 

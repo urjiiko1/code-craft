@@ -12,9 +12,10 @@ An interactive JavaScript quiz with multiple-choice questions, instant scoring a
 
 ## 📸 Screenshots
 
-| Quiz Page | Result Page |
-|-----------|------------|
-| ![Quiz Screenshot](./screenshot/quiz.png) | ![Result Screenshot](./screenshot/result.png) |
+| | |
+|---|---|
+| ![Hero](screenshot-hero.png) | ![Questions](screenshot-questions.png) |
+| ![Mobile](screenshot-mobile.png) | |
 
 ---
 

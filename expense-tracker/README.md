@@ -12,9 +12,10 @@ A responsive app for tracking daily income and expenses with charts, search and 
 
 ## 📸 Screenshots
 
-| Before Adding Transaction | After Adding Transaction |
-|---------------------------|-------------------------|
-| ![Before adding](before-add.png) | ![After adding](after-add.png) |
+| | |
+|---|---|
+| ![Hero](screenshot-hero.png) | ![Chart](screenshot-chart.png) |
+| ![History](screenshot-history.png) | ![Mobile](screenshot-mobile.png) |
 
 ---
 

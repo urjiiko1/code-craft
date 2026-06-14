@@ -12,9 +12,11 @@ A modern creative agency landing page showcasing clean layouts, advanced CSS tec
 
 ## 📸 Screenshots
 
-| Hero | Features |
-|------|----------|
+| | |
+|---|---|
 | ![Hero](screenshot-hero.png) | ![Features](screenshot-features.png) |
+| ![Pricing](screenshot-pricing.png) | ![Contact](screenshot-contact.png) |
+| ![Mobile](screenshot-mobile.png) | |
 
 ---
 

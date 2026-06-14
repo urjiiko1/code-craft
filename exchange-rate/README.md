@@ -12,7 +12,10 @@ A live currency exchange rate calculator with real-time API data, swap support a
 
 ## 📸 Screenshots
 
-![Exchange Rate Screenshot](Screenshot.png)
+| | |
+|---|---|
+| ![Hero](screenshot-hero.png) | ![Features](screenshot-features.png) |
+| ![Mobile](screenshot-mobile.png) | |
 
 ---
 

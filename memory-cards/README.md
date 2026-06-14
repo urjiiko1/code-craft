@@ -12,9 +12,10 @@ An interactive flashcard app with deck management, search, shuffle, dark mode an
 
 ## 📸 Screenshots
 
-| Add Card | Question View | Answer View |
-|----------|---------------|-------------|
-| ![Add Card](add-card.png) | ![Question](question-view.png) | ![Answer](answer-view.png) |
+| | |
+|---|---|
+| ![Hero](screenshot-hero.png) | ![Cards](screenshot-cards.png) |
+| ![Mobile](screenshot-mobile.png) | |
 
 ---
 

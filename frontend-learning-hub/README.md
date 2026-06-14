@@ -12,9 +12,11 @@ A frontend learning platform with interactive tools, salary calculator, framewor
 
 ## 📸 Screenshots
 
-| Hero | Tools |
-|------|-------|
-| ![Hero](screenshot-hero.png) | ![Tools](screenshot-tools.png) |
+| | |
+|---|---|
+| ![Hero](screenshot-hero.png) | ![Courses](screenshot-courses.png) |
+| ![Tools](screenshot-tools.png) | ![Mentors](screenshot-mentors.png) |
+| ![Mobile](screenshot-mobile.png) | |
 
 ---
 

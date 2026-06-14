@@ -12,9 +12,11 @@ A cryptographic password generator with Web Crypto API, memorable builder mode, 
 
 ## 📸 Screenshots
 
-| Home | Generator |
-|------|-----------|
-| ![Home](screenshot-home.png) | ![Generator](screenshot-generator.png) |
+| | |
+|---|---|
+| ![Hero](screenshot-hero.png) | ![Generator](screenshot-generator.png) |
+| ![Vault](screenshot-vault.png) | ![About](screenshot-about.png) |
+| ![Mobile](screenshot-mobile.png) | |
 
 ---
 

@@ -17,6 +17,14 @@ Check the live demo of Age-Calculator here:
 - 🔁 Supports Date objects and ISO date strings
 - 🔧 Small API surface for easy testing and embedding
 
+## 📸 Screenshots
+
+| | |
+|---|---|
+| ![Home](screenshot-home.png) | ![Calculator](screenshot-calculator.png) |
+| ![Features](screenshot-features.png) | ![About](screenshot-about.png) |
+| ![FAQ](screenshot-faq.png) | |
+
 ## 👀 What you'll see
 - Clear human-readable result: "X years, Y months, Z days"
 - Errors for invalid formats or impossible dates

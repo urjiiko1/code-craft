@@ -12,9 +12,11 @@ An interactive JavaScript playground for analyzing type coercion, branching logi
 
 ## 📸 Screenshots
 
-| Top | Modules |
-|-----|---------|
-| ![Top](screenshot-top.png) | ![Modules](screenshot-modules.png) |
+| | |
+|---|---|
+| ![Hero](screenshot-hero.png) | ![Variables](screenshot-variables.png) |
+| ![Functions](screenshot-functions.png) | ![Arrays](screenshot-arrays.png) |
+| ![Mobile](screenshot-mobile.png) | |
 
 ---
 

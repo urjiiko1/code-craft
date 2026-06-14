@@ -12,13 +12,10 @@ A modern productivity workspace with task management, deep work timer, profile c
 
 ## 📸 Screenshots
 
-| Dashboard | Deep Work Timer | Profile |
-|------------|----------------|----------|
-| ![Dashboard](./screenshots/dashboard.png) | ![Timer](./screenshots/timer.png) | ![Profile](./screenshots/profile.png) |
-
-| Settings | Task Feed | Boot System |
-|-----------|------------|-------------|
-| ![Settings](./screenshots/setting.jpg) | ![Task](./screenshots/task.jpg) | ![Boot System](./screenshots/Boot-system.jpg) |
+| | |
+|---|---|
+| ![Hero](screenshot-hero.png) | ![Tasks](screenshot-tasks.png) |
+| ![Timer](screenshot-timer.png) | ![Mobile](screenshot-mobile.png) |
 
 ---
 
